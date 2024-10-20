@@ -63,15 +63,24 @@
     <button id="unmute-btn" onclick="unmutePlayer()">Activează Sunetul</button>
 
     <script>
-        var player = new Clappr.Player({
-            source: "<?php echo $_GET['url']; ?>",
-            parentId: "#player",
-            autoPlay: true,  // Redare automată
-            preload: "auto",  // Încarcă video-ul
-            mute: true,  // Video-ul începe mut
-            height: '100%',
-            width: '100%'
-        });
+        // Obține parametrii URL (de exemplu, ?url=)
+        const urlParams = new URLSearchParams(window.location.search);
+        const videoUrl = urlParams.get('url');
+
+        // Verifică dacă a fost introdus un URL M3U8
+        if (videoUrl) {
+            var player = new Clappr.Player({
+                source: videoUrl,
+                parentId: "#player",
+                autoPlay: true,
+                preload: "auto",
+                mute: true,
+                height: '100%',
+                width: '100%'
+            });
+        } else {
+            document.getElementById('player').innerHTML = '<p>Nu a fost furnizat niciun link M3U8.</p>';
+        }
 
         // Funcția pentru activarea sunetului
         function unmutePlayer() {
