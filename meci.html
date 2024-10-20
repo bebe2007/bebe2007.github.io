@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Dinamic</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+        }
+        .iframe-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        .logo {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+        .logo img {
+            width: 150px; /* Poți ajusta dimensiunea logo-ului după preferință */
+        }
+    </style>
+</head>
+<body>
+    <div class="iframe-container">
+        <iframe id="videoPlayer" src="" allowfullscreen></iframe>
+        <div class="logo">
+            <a href="https://sporturi-live.ro/" target="_blank">
+                <img src="https://sporturi-live.ro/wp-content/uploads/2024/08/logo-300x54.png" alt="Logo Sporturi Live">
+            </a>
+        </div>
+    </div>
+
+    <!-- Script pentru preluarea linkului dinamic și blocarea reclamelor -->
+    <script>
+        // Funcție pentru a prelua parametrii din URL
+        function getParameterByName(name) {
+            name = name.replace(/[\[\]]/g, '\\$&');
+            var url = window.location.href;
+            var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)');
+            var results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, ' '));
+        }
+
+        // Preluăm parametrul 'url' din query string
+        var videoUrl = getParameterByName('url');
+
+        // Setăm sursa iframe-ului doar dacă parametrul este prezent
+        if (videoUrl) {
+            document.getElementById('videoPlayer').src = videoUrl;
+        } else {
+            // În caz că nu există parametru 'url', putem afișa un mesaj sau un URL implicit
+            document.getElementById('videoPlayer').src = "";
+        }
+
+        // Blochează pop-up-urile deschise de reclame
+        window.open = function() {
+            return null;
+        };
+
+        // Împiedică redirecționările automate din iframe
+        history.pushState(null, null, location.href);
+        window.onpopstate = function () {
+            history.pushState(null, null, location.href);
+        };
+
+        // Mesaj de confirmare înainte de a părăsi pagina
+        window.onbeforeunload = function() {
+            return "Sunteți sigur că doriți să părăsiți pagina?";
+        };
+    </script>
+
+    <!-- Script ajustat pentru blocarea reclamelor, păstrând playerul video -->
+    <script>
+        // Funcție pentru a bloca doar iframe-urile de reclame, dar nu și playerul video
+        function blockAds() {
+            var adSelectors = [
+                'iframe:not(#videoPlayer)', // pentru blocarea iframe-urilor de reclame, exceptând playerul video
+                '.ad',    // pentru clase asociate reclamelor
+                '#ads',   // pentru ID-uri asociate reclamelor
+                '[src*="ad"]',  // pentru surse care conțin "ad"
+                '[href*="ad"]'  // pentru linkuri care conțin "ad"
+            ];
+
+            adSelectors.forEach(function(selector) {
+                var ads = document.querySelectorAll(selector);
+                ads.forEach(function(ad) {
+                    ad.remove();
+                });
+            });
+
+            // Interceptăm cererile către domenii asociate reclamelor
+            var blockedDomains = ['doubleclick.net', 'adsense.google.com', 'adservice.google.com'];
+            var originalOpen = XMLHttpRequest.prototype.open;
+            XMLHttpRequest.prototype.open = function(method, url) {
+                for (var i = 0; i < blockedDomains.length; i++) {
+                    if (url.includes(blockedDomains[i])) {
+                        console.log("Blocked ad request:", url);
+                        return;
+                    }
+                }
+                return originalOpen.apply(this, arguments);
+            };
+        }
+
+        // Apelează funcția de blocare la încărcarea paginii
+        window.onload = function() {
+            blockAds();
+        };
+    </script>
+
+</body>
+</html>
