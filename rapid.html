@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programe TV Live</title>
+    <style type="text/css">
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* Ascunde bara de defilare */
+            background-color: black;
+        }
+        .video-player {
+            width: 100%;
+            height: 100%;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+    <script>
+        // Obține parametrul 'id' din URL
+        function getParameterByName(name) {
+            const url = new URL(window.location.href);
+            return url.searchParams.get(name);
+        }
+
+        // Configurarea canalelor și a linkurilor
+        const ConfigurareCanale = {
+            "digi1": { url: "https://tvcanale.live/embed.php?id=62" },
+            "digi2": { url: "https://tvcanale.live/embed.php?id=63" },
+            "digi3": { url: "https://tvcanale.live/embed.php?id=64" },
+            "digi4": { url: "https://tvcanale.live/embed.php?id=65" },
+            "prima1": { url: "https://tvcanale.live/embed.php?id=42" },
+            "prima2": { url: "https://tvcanale.live/embed.php?id=39" },
+            "prima3": { url: "https://tvcanale.live/embed.php?id=41" },
+            "prima4": { url: "https://tvcanale.live/embed.php?id=40" },
+            "premiersports1_irl": { url: "https://streamtp1.com/global1.php?stream=premiersports1_irl" },
+            "premiersports2_irl": { url: "https://streamtp1.com/global1.php?stream=premiersports2_irl" },
+            "sportv_1pt": { url: "https://streamtp1.com/global1.php?stream=sportv_1pt" },
+            "sportv_2pt": { url: "https://streamtp1.com/global1.php?stream=sportv_2pt" },
+            "sportv_3pt": { url: "https://streamtp1.com/global1.php?stream=sportv_3pt" },
+            "caracoltv": { url: "https://streamtp1.com/global1.php?stream=caracoltv" },
+            "espn1": { url: "https://streamtp1.com/global1.php?stream=espn1" },
+            "espn2": { url: "https://streamtp1.com/global1.php?stream=espn2" },
+            "espn3": { url: "https://streamtp1.com/global1.php?stream=espn3" },
+            "espn4": { url: "https://streamtp1.com/global1.php?stream=espn4" },
+            "espn5": { url: "https://streamtp1.com/global1.php?stream=espn5" },
+            "espn6": { url: "https://streamtp1.com/global1.php?stream=espn6" },
+            "espn7": { url: "https://streamtp1.com/global1.php?stream=espn7" },
+            "winplus": { url: "https://streamtp1.com/global1.php?stream=winplus" },
+            "winsports": { url: "https://streamtp1.com/global1.php?stream=winsports" },
+            "fox1ar": { url: "https://streamtp1.com/global1.php?stream=fox1ar" },
+            "fox2ar": { url: "https://streamtp1.com/global1.php?stream=fox2ar" },
+            "fox3ar": { url: "https://streamtp1.com/global1.php?stream=fox3ar" },
+            "dsports": { url: "https://streamtp1.com/global1.php?stream=dsports" },
+            "dsports_2": { url: "https://streamtp1.com/global1.php?stream=dsports_2" },
+            "dsports_plus": { url: "https://streamtp1.com/global1.php?stream=dsports_plus" },
+            "tnt_chile": { url: "https://streamtp1.com/global1.php?stream=tnt_chile" },
+            "tntsports_argentina": { url: "https://streamtp1.com/global1.php?stream=tntsports_argentina" },
+            "espn_premium": { url: "https://streamtp1.com/global1.php?stream=espn_premium" },
+            "tyc_sports": { url: "https://streamtp1.com/global1.php?stream=tyc_sports" },
+            "telefe": { url: "https://streamtp1.com/global1.php?stream=telefe" },
+            "tv_publica": { url: "https://streamtp1.com/global1.php?stream=tv_publica" },
+            "l1max": { url: "https://streamtp1.com/global1.php?stream=l1max" },
+            "golperu": { url: "https://streamtp1.com/global1.php?stream=golperu" },
+            "espn_deportes": { url: "https://streamtp1.com/global1.php?stream=espn_deportes" },
+            "tudn_usa": { url: "https://streamtp1.com/global1.php?stream=tudn_usa" },
+            "fox_deportes_usa": { url: "https://streamtp1.com/global1.php?stream=fox_deportes_usa" },
+            "skylaligamx": { url: "https://streamtp1.com/global1.php?stream=skylaligamx" },
+            "azteca_deportes": { url: "https://streamtp1.com/global1.php?stream=azteca_deportes" },
+            "foxsportsmx": { url: "https://streamtp1.com/global1.php?stream=foxsportsmx" },
+            "foxsportspremium": { url: "https://streamtp1.com/global1.php?stream=foxsportspremium" },
+            "espnmx": { url: "https://streamtp1.com/global1.php?stream=espnmx" },
+            "fox_1_usa": { url: "https://streamtp1.com/global1.php?stream=fox_1_usa" },
+            "fox_2_usa": { url: "https://streamtp1.com/global1.php?stream=fox_2_usa" },
+            "eurosports1_es": { url: "https://streamtp1.com/global1.php?stream=eurosports1_es" },
+            "eurosports2_es": { url: "https://streamtp1.com/global1.php?stream=eurosports2_es" },
+            "dazn1": { url: "https://streamtp1.com/global1.php?stream=dazn1" },
+            "dazn2": { url: "https://streamtp1.com/global1.php?stream=dazn2" },
+            "telefe": { url: "https://streamtp1.com/global1.php?stream=telefe" },
+            "dazn_laliga": { url: "https://streamtp1.com/global1.php?stream=dazn_laliga" },
+            "movistarligadecampeones": { url: "https://streamtp1.com/global1.php?stream=movistarligadecampeones" },
+            "movistarligadecampeones2": { url: "https://streamtp1.com/global1.php?stream=movistarligadecampeones2" },
+            "ecdf": { url: "https://streamtp1.com/global1.php?stream=ecdf" },
+            "rcnco": { url: "https://streamtp1.com/global1.php?stream=rcnco" },
+            "starplus01": { url: "https://streamtp1.com/global1.php?stream=starplus01" },
+            "starplus02": { url: "https://streamtp1.com/global1.php?stream=starplus02" },
+            "starplus03": { url: "https://streamtp1.com/global1.php?stream=starplus03" },
+            "starplus04": { url: "https://streamtp1.com/global1.php?stream=starplus04" },
+            "starplus05": { url: "https://streamtp1.com/global1.php?stream=starplus05" },
+            "starplus06": { url: "https://streamtp1.com/global1.php?stream=starplus06" },
+            "starplus07": { url: "https://streamtp1.com/global1.php?stream=starplus07" },
+            "starplus08": { url: "https://streamtp1.com/global1.php?stream=starplus08" },
+            "starplus09": { url: "https://streamtp1.com/global1.php?stream=starplus09" },
+            "starplus10": { url: "https://streamtp1.com/global1.php?stream=starplus10" },
+            "starplus11": { url: "https://streamtp1.com/global1.php?stream=starplus11" },
+            "starplus12": { url: "https://streamtp1.com/global1.php?stream=starplus12" },
+            "starplus13": { url: "https://streamtp1.com/global1.php?stream=starplus13" },
+            "starplus14": { url: "https://streamtp1.com/global1.php?stream=starplus14" },
+            "starplus15": { url: "https://streamtp1.com/global1.php?stream=starplus15" },
+            "eventos1": { url: "https://streamtp1.com/global1.php?stream=eventos1" },
+            "eventos2": { url: "https://streamtp1.com/global1.php?stream=eventos2" },
+            "eventos3": { url: "https://streamtp1.com/global1.php?stream=eventos3" },
+            "eventos4": { url: "https://streamtp1.com/global1.php?stream=eventos4" },
+            "eventos5": { url: "https://streamtp1.com/global1.php?stream=eventos5" },
+            "eventos6": { url: "https://streamtp1.com/global1.php?stream=eventos6" },
+            "eventos7": { url: "https://streamtp1.com/global1.php?stream=eventos7" },
+            "eventos8": { url: "https://streamtp1.com/global1.php?stream=eventos8" },
+            "eventos9": { url: "https://streamtp1.com/global1.php?stream=eventos9" },
+            "eventos10": { url: "https://streamtp1.com/global1.php?stream=eventos10" },
+            "eventos11": { url: "https://streamtp1.com/global1.php?stream=eventos11" },
+            "eventos12": { url: "https://streamtp1.com/global1.php?stream=eventos12" },
+            "eventos13": { url: "https://streamtp1.com/global1.php?stream=eventos13" },
+            "eventos14": { url: "https://streamtp1.com/global1.php?stream=eventos14" },
+            "eventos15": { url: "https://streamtp1.com/global1.php?stream=eventos15" },
+            "nfl01": { url: "https://streamtp1.com/global1.php?stream=nfl01" },
+            "nfl02": { url: "https://streamtp1.com/global1.php?stream=nfl02" },
+            "nfl03": { url: "https://streamtp1.com/global1.php?stream=nfl03" },
+            "nfl04": { url: "https://streamtp1.com/global1.php?stream=nfl04" },
+            "nfl05": { url: "https://streamtp1.com/global1.php?stream=nfl05" },
+            "nfl06": { url: "https://streamtp1.com/global1.php?stream=nfl06" },
+            "nfl07": { url: "https://streamtp1.com/global1.php?stream=nfl07" },
+            "nfl08": { url: "https://streamtp1.com/global1.php?stream=nfl08" },
+            "nfl09": { url: "https://streamtp1.com/global1.php?stream=nfl09" },
+            "nfl10": { url: "https://streamtp1.com/global1.php?stream=nfl10" },
+
+
+
+
+
+
+
+            "a1": { url: "https://tvcanale.live/embed.php?id=a1" },
+            "protv": { url: "https://tvcanale.live/embed.php?id=1" },
+            "acasatv": { url: "https://tvcanale.live/embed.php?id=2" },
+            "procinema": { url: "https://tvcanale.live/embed.php?id=4" },
+            "acasagold": { url: "https://tvcanale.live/embed.php?id=6" },
+            "proarena": { url: "https://tvcanale.live/embed.php?id=3" },
+            "antenastars": { url: "https://tvcanale.live/embed.php?id=astars" },
+            "kanald": { url: "https://tvcanale.live/embed.php?id=11" },
+            "kanald2": { url: "https://tvcanale.live/embed.php?id=knd2" },
+            "primatv": { url: "https://tvcanale.live/embed.php?id=7" },
+            "tvr1": { url: "https://tvcanale.live/embed.php?id=30" },
+            "tvr2": { url: "https://tvcanale.live/embed.php?id=31" },
+            "tvr3": { url: "https://tvcanale.live/embed.php?id=32" },
+            "tvrint": { url: "https://tvcanale.live/embed.php?id=tvri" },
+            "antenaint": { url: "https://tvcanale.live/embed.php?id=ai" },
+            "nationaltv": { url: "https://tvcanale.live/embed.php?id=ntv" },
+            "n24plus": { url: "https://tvcanale.live/embed.php?id=n24-plus" },
+            "kapitaltv": { url: "https://tvcanale.live/embed.php?id=kapital-tv" },
+            "protvint": { url: "https://tvcanale.live/embed.php?id=ptvi" },
+            "antena3": { url: "https://tvcanale.live/embed.php?id=a3" },
+            "digi24": { url: "https://tvcanale.live/embed.php?id=43" },
+            "realitatea": { url: "https://tvcanale.live/embed.php?id=8" },
+            "realitateastars": { url: "https://tvcanale.live/embed.php?id=rstars" },
+            "realitateasport": { url: "https://tvcanale.live/embed.php?id=rsport" },
+            "romaniatv": { url: "https://tvcanale.live/embed.php?id=9" },
+            "alephnews": { url: "https://tvcanale.live/embed.php?id=47" },
+            "alephsmart": { url: "https://tvcanale.live/embed.php?id=smart" },
+            "alephbusiness": { url: "https://tvcanale.live/embed.php?id=business" },
+            "b1tv": { url: "https://tvcanale.live/embed.php?id=10" },
+            "eurosport": { url: "https://tvcanale.live/embed.php?id=14" },
+            "eurosport2": { url: "https://tvcanale.live/embed.php?id=15" },
+            "extremesports": { url: "https://tvcanale.live/embed.php?id=146" },
+            "orange1": { url: "https://tvcanale.live/embed.php?id=tks" },
+            "orange2": { url: "https://tvcanale.live/embed.php?id=tks2" },
+            "orange3": { url: "https://tvcanale.live/embed.php?id=tks3" },
+            "orange4": { url: "https://tvcanale.live/embed.php?id=tks4" },
+            "filmnew": { url: "https://tvcanale.live/embed.php?id=fm" },
+            "warnertv": { url: "https://tvcanale.live/embed.php?id=44" },
+            "cinemax1": { url: "https://tvcanale.live/embed.php?id=cn1" },
+            "cinemax2": { url: "https://tvcanale.live/embed.php?id=cn2" },
+            "hbo1": { url: "https://tvcanale.live/embed.php?id=hbo" },
+            "hbo2": { url: "https://tvcanale.live/embed.php?id=hbo2" },
+            "hbo3": { url: "https://tvcanale.live/embed.php?id=hbo3" },
+            "happy": { url: "https://tvcanale.live/embed.php?id=happy" },
+            "boollywood": { url: "https://tvcanale.live/embed.php?id=53" },
+            "boollywoodclasic": { url: "https://tvcanale.live/embed.php?id=54" },
+            "diva": { url: "https://tvcanale.live/embed.php?id=77" },
+            "filmbox": { url: "https://tvcanale.live/embed.php?id=fb1" },
+            "filmboxpremium": { url: "https://tvcanale.live/embed.php?id=fb2" },
+            "filmboxextra": { url: "https://tvcanale.live/embed.php?id=fb3" },
+            "filmboxfamily": { url: "https://tvcanale.live/embed.php?id=fb4" },
+            "filmboxplus": { url: "https://tvcanale.live/embed.php?id=fb5" },
+            "cinemaraton": { url: "https://tvcanale.live/embed.php?id=78" },
+            "tv1000": { url: "https://tvcanale.live/embed.php?id=25" },
+            "filmcafe": { url: "https://tvcanale.live/embed.php?id=80" },
+            "amc": { url: "https://tvcanale.live/embed.php?id=61" },
+            "comedycentral": { url: "https://tvcanale.live/embed.php?id=81" },
+            "epicdrama": { url: "https://tvcanale.live/embed.php?id=82" },
+            "comedyest": { url: "https://tvcanale.live/embed.php?id=100" },
+            "axn": { url: "https://tvcanale.live/embed.php?id=26" },
+            "axnblack": { url: "https://tvcanale.live/embed.php?id=27" },
+            "axnwhite": { url: "https://tvcanale.live/embed.php?id=28" },
+            "axnspin": { url: "https://tvcanale.live/embed.php?id=29" },
+            "discoveryid": { url: "https://tvcanale.live/embed.php?id=idd" },
+            "docubox": { url: "https://tvcanale.live/embed.php?id=db" },
+            "lovenature": { url: "https://tvcanale.live/embed.php?id=128" },
+            "crimeinvestigation": { url: "https://tvcanale.live/embed.php?id=ci" },
+            "nasutv": { url: "https://tvcanale.live/embed.php?id=13" },
+            "digiworld": { url: "https://tvcanale.live/embed.php?id=16" },
+            "profit": { url: "https://tvcanale.live/embed.php?id=46" },
+            "agro": { url: "https://tvcanale.live/embed.php?id=45" },
+            "digilife": { url: "https://tvcanale.live/embed.php?id=17" },
+            "digianimal": { url: "https://tvcanale.live/embed.php?id=18" },
+            "natgeographic": { url: "https://tvcanale.live/embed.php?id=19" },
+            "natigeowild": { url: "https://tvcanale.live/embed.php?id=84" },
+            "history": { url: "https://tvcanale.live/embed.php?id=20" },
+            "viasatexplorer": { url: "https://tvcanale.live/embed.php?id=58" },
+            "viasathistory": { url: "https://tvcanale.live/embed.php?id=59" },
+            "viasatnature": { url: "https://tvcanale.live/embed.php?id=22" },
+            "bbcearth": { url: "https://tvcanale.live/embed.php?id=23" },
+            "discovery": { url: "https://tvcanale.live/embed.php?id=24" },
+            "tlc": { url: "https://tvcanale.live/embed.php?id=33" },
+            "entertainment": { url: "https://tvcanale.live/embed.php?id=ee" },
+            "fashion": { url: "https://tvcanale.live/embed.php?id=131" },
+            "taraf": { url: "https://tvcanale.live/embed.php?id=trf" },
+            "etno": { url: "https://tvcanale.live/embed.php?id=etno" },
+            "mozzhd": { url: "https://tvcanale.live/embed.php?id=50" },
+            "mozzro": { url: "https://tvcanale.live/embed.php?id=52" },
+            "mozzhits": { url: "https://tvcanale.live/embed.php?id=51" },
+            "mozzdance": { url: "https://tvcanale.live/embed.php?id=49" },
+            "tranceurban": { url: "https://tvcanale.live/embed.php?id=125" },
+            "utv": { url: "https://tvcanale.live/embed.php?id=48" },
+            "kisstv": { url: "https://tvcanale.live/embed.php?id=35" },
+            "hitmusic": { url: "https://tvcanale.live/embed.php?id=55" },
+            "vh1": { url: "https://tvcanale.live/embed.php?id=83" },
+            "zutv": { url: "https://tvcanale.live/embed.php?id=zu" },
+            "roktv": { url: "https://tvcanale.live/embed.php?id=rock-tv" },
+            "magictv": { url: "https://tvcanale.live/embed.php?id=magic-tv" },
+            "favorit": { url: "https://tvcanale.live/embed.php?id=favorit-tv" },
+            "mtv": { url: "https://tvcanale.live/embed.php?id=76" },
+            "tezaur": { url: "https://tvcanale.live/embed.php?id=56" },
+            "travelchannel": { url: "https://tvcanale.live/embed.php?id=36" },
+            "paprikatv": { url: "https://tvcanale.live/embed.php?id=37" },
+            "cbsreality": { url: "https://tvcanale.live/embed.php?id=86" },
+            "hgtv": { url: "https://tvcanale.live/embed.php?id=68" },
+            "travelmix": { url: "https://tvcanale.live/embed.php?id=travel-mix" },
+            "fishingandhunting": { url: "https://tvcanale.live/embed.php?id=88" },
+            "cartoon": { url: "https://tvcanale.live/embed.php?id=70" },
+            "boomerang": { url: "https://tvcanale.live/embed.php?id=71" },
+            "davinci": { url: "https://tvcanale.live/embed.php?id=72" },
+            "disneychannel": { url: "https://tvcanale.live/embed.php?id=disney" },
+            "teennick": { url: "https://tvcanale.live/embed.php?id=124" },
+            "nicktoons": { url: "https://tvcanale.live/embed.php?id=127" },
+            "nickelodeon": { url: "https://tvcanale.live/embed.php?id=73" },
+            "minimax": { url: "https://tvcanale.live/embed.php?id=74" },
+            "vtv": { url: "https://tvcanale.live/embed.php?id=vtv" },
+            "deutschewelle": { url: "https://tvcanale.live/embed.php?id=dw" },
+            "inedit": { url: "https://tvcanale.live/embed.php?id=itv" },
+
+
+
+
+
+            "sportv1": { url: "https://sporturi-live.ro/player2.php?url=https://8r1fp7ro6am.a.trbcdn.net/SportTV1/tracks-v1a1/mono.m3u8" },
+            "sportv2": { url: "https://sporturi-live.ro/player2.php?url=https://8r1fp7ro6am.a.trbcdn.net/SportTV2/tracks-v1a1/mono.m3u8" },
+            "sportv3": { url: "https://sporturi-live.ro/player2.php?url=https://8r1fp7ro6am.a.trbcdn.net/SportTV3/tracks-v1a1/mono.m3u8" },
+            "sportv4": { url: "https://sporturi-live.ro/player2.php?url=https://8r1fp7ro6am.a.trbcdn.net/SportTV4/tracks-v1a1/mono.m3u8" },
+            "sportv5": { url: "https://sporturi-live.ro/player2.php?url=https://8r1fp7ro6am.a.trbcdn.net/SportTV5/tracks-v1a1/mono.m3u8" },
+            "sportv6": { url: "https://sporturi-live.ro/player2.php?url=https://8r1fp7ro6am.a.trbcdn.net/SportTV6/tracks-v1a1/mono.m3u8" },
+
+            "bein1": { url: "https://sporturi-live.ro/player2.php?url=https://live2.beinconnect.us/YallaGoalApp/beINSports1.m3u8" },
+            "bein2": { url: "https://sporturi-live.ro/player2.php?url=https://live2.beinconnect.us/YallaGoalApp/beINSports2.m3u8" },
+            "bein3": { url: "https://sporturi-live.ro/player2.php?url=https://live2.beinconnect.us/YallaGoalApp/beINSports3.m3u8" },
+            "bein4": { url: "https://sporturi-live.ro/player2.php?url=https://live2.beinconnect.us/YallaGoalApp/beINSports4.m3u8" },
+            "bein5": { url: "https://sporturi-live.ro/player2.php?url=https://live2.beinconnect.us/YallaGoalApp/beINSports5.m3u8" },
+            "bein6": { url: "https://sporturi-live.ro/player2.php?url=https://live2.beinconnect.us/YallaGoalApp/beINSports6.m3u8" },
+
+
+
+            "canalplussport_pl": { url: "https://sporturi-live.ro/player2.php?url=https://rr3.vipshara-iptv.com/~210f24bf09f5d96bbad80adfe5f6275547d/33662/hls/pl.m3u8" },
+            "canalplussport2_pl": { url: "https://sporturi-live.ro/player2.php?url=https://rr3.vipshara-iptv.com/~210f24bf09f5d96bbad80adfe5f6275547d/55352/hls/pl.m3u8" },
+            "canalplussport3_pl": { url: "https://sporturi-live.ro/player2.php?url=https://rr3.vipshara-iptv.com/~210f24bf09f5d96bbad80adfe5f6275547d/63534/hls/pl.m3u8" },
+            "canalplussport4_pl": { url: "https://sporturi-live.ro/player2.php?url=https://rr3.vipshara-iptv.com/~210f24bf09f5d96bbad80adfe5f6275547d/47762/hls/pl.m3u8" },
+            "canalplussport5_pl": { url: "https://sporturi-live.ro/player2.php?url=https://rr3.vipshara-iptv.com/~210f24bf09f5d96bbad80adfe5f6275547d/47723/hls/pl.m3u8" },
+            "polasatsport": { url: "https://sporturi-live.ro/player2.php?url=https://rr3.vipshara-iptv.com/~210f24bf09f5d96bbad80adfe5f6275547d/52243/hls/pl.m3u8" },
+            "polsatsportextra": { url: "https://sporturi-live.ro/player2.php?url=https://rr3.vipshara-iptv.com/~210f24bf09f5d96bbad80adfe5f6275547d/43228/hls/pl.m3u8" },
+            "tvpsport_pl": { url: "https://sporturi-live.ro/player2.php?url=https://rr3.vipshara-iptv.com/~210f24bf09f5d96bbad80adfe5f6275547d/27360/hls/pl.m3u8" },
+            "sportklub_pl": { url: "https://sporturi-live.ro/player2.php?url=https://rr3.vipshara-iptv.com/~210f24bf09f5d96bbad80adfe5f6275547d/36283/hls/pl.m3u8" },
+
+
+            "realmadridtv": { url: "https://sporturi-live.ro/player2.php?url=https://stream.ads.ottera.tv/playlist.m3u8?network_id=1545" },
+            "manchesterunitedtv": { url: "https://sporturi-live.ro/player2.php?url=https://bcovlive-a.akamaihd.net/r2d2c4ca5bf57456fb1d16255c1a535c8/eu-west-1/eu-west-1/6058004203001/profile_2/chunklist.m3u8" },
+            "belarus5": { url: "https://sporturi-live.ro/player2.php?url=https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8xOS8yMDIyIDExOjU1OjU3IEFNJmhhc2hfdmFsdWU9MHNhZjFiZEpIUGdSRGJWcnpDVjdBZz09JnZhbGlkbWludXRlcz0xMjA=" },
+            "yasnae_belarus": { url: "https://sporturi-live.ro/player2.php?url=https://live.kinescopecdn.net/on-air/55e73540-201b-42a2-b91e-96802a0ddc31/124d2b50-3439-4123-8923-946c9e465e62/source/media.m3u8" },
+            "00000": { url: "https://sporturi-live.ro/player2.php?url=00000" },
+            "00000": { url: "https://sporturi-live.ro/player2.php?url=00000" },
+            "00000": { url: "https://sporturi-live.ro/player2.php?url=00000" },
+
+
+        };
+
+        // Încarcă canalul selectat
+        function loadChannel() {
+            const id = getParameterByName('id');
+            const channel = ConfigurareCanale[id];
+
+            if (channel) {
+                document.getElementById('player').src = channel.url;
+            } else {
+                document.getElementById('player').src = "about:blank"; // În caz că ID-ul nu e valid
+            }
+        }
+
+        // Execută funcția când pagina se încarcă
+        window.onload = loadChannel;
+    </script>
+</head>
+<body>
+    <div class="video-player">
+        <iframe id="player" src="" frameborder="0" allowfullscreen></iframe>
+    </div>
+</body>
+</html>
