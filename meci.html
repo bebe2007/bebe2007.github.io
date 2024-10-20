@@ -100,7 +100,7 @@
             });
         });
 
-        // Prevenim redirecționările din JavaScript prin window.location
+        // Prevenim redirecționările din JavaScript prin window.location, dar doar pentru cele care nu sunt pe videoPlayer
         Object.defineProperty(window, 'location', {
             configurable: false,
             writable: false,
