@@ -115,7 +115,12 @@
             console.log("Blocked location.replace");
         };
 
-        // Funcție pentru a bloca doar iframe-urile de reclame, dar nu și playerul video
+        // Blochează redirecționările și pop-up-urile din iframe
+        document.getElementById('videoPlayer').addEventListener('click', function(e) {
+            e.stopPropagation();
+        });
+
+        // Funcție pentru a bloca iframe-urile de reclame și suprascrierea `window.open`
         function blockAds() {
             var adSelectors = [
                 'iframe:not(#videoPlayer)', // pentru blocarea iframe-urilor de reclame, exceptând playerul video
@@ -143,6 +148,13 @@
                     }
                 }
                 return originalOpen.apply(this, arguments);
+            };
+
+            // Blochează orice apel la window.open din iframe-ul video
+            var originalOpenWindow = window.open;
+            window.open = function() {
+                console.log("Blocked window.open call");
+                return null;
             };
         }
 
