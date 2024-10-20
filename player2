@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Video</title>
+    <script src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background-color: #000;
+        }
+        #player {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        #logo {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 150px;
+            z-index: 10;
+        }
+        #logo a {
+            display: block;
+        }
+        #logo img {
+            width: 100%;
+            height: auto;
+        }
+        #unmute-btn {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            padding: 10px 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+    <div id="player"></div>
+
+    <!-- Logo-ul în partea dreaptă sus -->
+    <div id="logo">
+        <a href="https://sporturi-live.ro/" target="_blank">
+            <img src="https://sporturi-live.ro/wp-content/uploads/2024/08/logo-300x54.png" alt="Sporturi Live Logo">
+        </a>
+    </div>
+
+    <!-- Butonul pentru activarea sunetului în partea stângă sus -->
+    <button id="unmute-btn" onclick="unmutePlayer()">Activează Sunetul</button>
+
+    <script>
+        var player = new Clappr.Player({
+            source: "<?php echo $_GET['url']; ?>",
+            parentId: "#player",
+            autoPlay: true,  // Redare automată
+            preload: "auto",  // Încarcă video-ul
+            mute: true,  // Video-ul începe mut
+            height: '100%',
+            width: '100%'
+        });
+
+        // Funcția pentru activarea sunetului
+        function unmutePlayer() {
+            player.setVolume(100);  // Setează volumul la 100%
+            player.unmute();  // Dezactivează mut
+            document.getElementById('unmute-btn').style.display = 'none';  // Ascunde butonul după ce sunetul este activat
+        }
+
+        // Ascunde butonul de activare sunet dacă video-ul este deja nemutat
+        player.on(Clappr.Events.PLAYER_PLAY, function() {
+            if (!player.isMuted()) {
+                document.getElementById('unmute-btn').style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
