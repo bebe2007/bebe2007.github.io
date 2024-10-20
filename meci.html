@@ -36,7 +36,7 @@
     <div class="iframe-container">
         <iframe id="videoPlayer" src="" allowfullscreen></iframe>
         <div class="logo">
-            <a href="https://sporturi-live.ro/" target="_blank">
+            <a href="https://sporturi-live.ro/" target="_blank" id="logoLink">
                 <img src="https://sporturi-live.ro/wp-content/uploads/2024/08/logo-300x54.png" alt="Logo Sporturi Live">
             </a>
         </div>
@@ -83,8 +83,38 @@
         };
     </script>
 
-    <!-- Script ajustat pentru blocarea reclamelor, păstrând playerul video -->
+    <!-- Script pentru blocarea linkurilor externe și a reclamelor -->
     <script>
+        // Blochează orice link extern (ancoră) de pe pagină
+        document.addEventListener('DOMContentLoaded', function() {
+            var links = document.querySelectorAll('a');
+            links.forEach(function(link) {
+                link.addEventListener('click', function(event) {
+                    var href = link.getAttribute('href');
+                    // Verificăm dacă linkul nu este intern (adică nu este pe domeniul curent)
+                    if (href && !href.includes(window.location.hostname)) {
+                        event.preventDefault();
+                        console.log("Blocked external link:", href);
+                    }
+                });
+            });
+        });
+
+        // Prevenim redirecționările din JavaScript prin window.location
+        Object.defineProperty(window, 'location', {
+            configurable: false,
+            writable: false,
+            value: window.location
+        });
+
+        // Prevenim redirecționările prin window.location.assign și window.location.replace
+        window.location.assign = function() {
+            console.log("Blocked location.assign");
+        };
+        window.location.replace = function() {
+            console.log("Blocked location.replace");
+        };
+
         // Funcție pentru a bloca doar iframe-urile de reclame, dar nu și playerul video
         function blockAds() {
             var adSelectors = [
