@@ -74,7 +74,7 @@
         }
     </style>
     <script>
-        // Obține parametrul 'url' din URL
+        // Obține parametrul 'id' din URL
         function getParameterByName(name) {
             const url = new URL(window.location.href);
             return url.searchParams.get(name);
@@ -82,6 +82,7 @@
 
         // Configurarea canalelor și a linkurilor
         const ConfigurareCanale = {
+
             "premiersports1_irl": { url: "https://streamtp1.com/global1.php?stream=premiersports1_irl" },
             "premiersports2_irl": { url: "https://streamtp1.com/global1.php?stream=premiersports2_irl" },
             "tnt1_gb": { url: "https://streamtp1.com/global1.php?stream=tnt_1_gb" },
@@ -123,6 +124,8 @@
             "espn7": { url: "https://streamtp1.com/global1.php?stream=espn7" },
             "winplus": { url: "https://streamtp1.com/global1.php?stream=winplus" },
             "winsports": { url: "https://streamtp1.com/global1.php?stream=winsports" },
+            "winplus2": { url: "https://streamtp1.com/global1.php?stream=winplus2" },
+            "winplusonline1": { url: "https://streamtp1.com/global1.php?stream=winplusonline1" },
             "fox1ar": { url: "https://streamtp1.com/global1.php?stream=fox1ar" },
             "fox2ar": { url: "https://streamtp1.com/global1.php?stream=fox2ar" },
             "fox3ar": { url: "https://streamtp1.com/global1.php?stream=fox3ar" },
@@ -159,6 +162,7 @@
             "dazn4_es": { url: "https://streamtp1.com/global1.php?stream=dazn4" },
             "telefe": { url: "https://streamtp1.com/global1.php?stream=telefe" },
             "dazn_laliga": { url: "https://streamtp1.com/global1.php?stream=dazn_laliga" },
+            "movistarlaliga": { url: "https://streamtp1.com/global1.php?stream=movistarlaliga" },
             "movistarligadecampeones": { url: "https://streamtp1.com/global1.php?stream=movistarligadecampeones" },
             "movistarligadecampeones2": { url: "https://streamtp1.com/global1.php?stream=movistarligadecampeones2" },
             "movistarligadecampeones3": { url: "https://streamtp1.com/global1.php?stream=movistarligadecampeones3" },
@@ -171,8 +175,26 @@
             "premiere2": { url: "https://streamtp1.com/global1.php?stream=premiere2" },
             "premiere3": { url: "https://streamtp1.com/global1.php?stream=premiere3" },
             "tigosport_guatemala": { url: "https://bebe2007.github.io/player.html?url=https://cnm-tsl.otteravision.com/cnm/tsl/tsl.m3u8" },
-
-
+            "paramount1": { url: "https://streamtp1.com/global1.php?stream=paramount1" },
+            "paramount2": { url: "https://streamtp1.com/global1.php?stream=paramount2" },
+            "paramount3": { url: "https://streamtp1.com/global1.php?stream=paramount3" },
+            "paramount4": { url: "https://streamtp1.com/global1.php?stream=paramount4" },
+            "paramount5": { url: "https://streamtp1.com/global1.php?stream=paramount5" },
+            "paramount6": { url: "https://streamtp1.com/global1.php?stream=paramount6" },
+            "paramount7": { url: "https://streamtp1.com/global1.php?stream=paramount7" },
+            "paramount8": { url: "https://streamtp1.com/global1.php?stream=paramount8" },
+            "paramount9": { url: "https://streamtp1.com/global1.php?stream=paramount9" },
+            "paramount10": { url: "https://streamtp1.com/global1.php?stream=paramount10" },
+            "fanatiz01": { url: "https://streamtp1.com/global1.php?stream=fanatiz01" },
+            "fanatiz02": { url: "https://streamtp1.com/global1.php?stream=fanatiz02" },
+            "fanatiz03": { url: "https://streamtp1.com/global1.php?stream=fanatiz03" },
+            "fanatiz04": { url: "https://streamtp1.com/global1.php?stream=fanatiz04" },
+            "fanatiz05": { url: "https://streamtp1.com/global1.php?stream=fanatiz05" },
+            "fanatiz06": { url: "https://streamtp1.com/global1.php?stream=fanatiz06" },
+            "fanatiz07": { url: "https://streamtp1.com/global1.php?stream=fanatiz07" },
+            "fanatiz08": { url: "https://streamtp1.com/global1.php?stream=fanatiz08" },
+            "fanatiz09": { url: "https://streamtp1.com/global1.php?stream=fanatiz09" },
+            "fanatiz10": { url: "https://streamtp1.com/global1.php?stream=fanatiz10" },
             "starplus01": { url: "https://streamtp1.com/global1.php?stream=starplus01" },
             "starplus02": { url: "https://streamtp1.com/global1.php?stream=starplus02" },
             "starplus03": { url: "https://streamtp1.com/global1.php?stream=starplus03" },
@@ -188,6 +210,16 @@
             "starplus13": { url: "https://streamtp1.com/global1.php?stream=starplus13" },
             "starplus14": { url: "https://streamtp1.com/global1.php?stream=starplus14" },
             "starplus15": { url: "https://streamtp1.com/global1.php?stream=starplus15" },
+            "starplus16": { url: "https://streamtp1.com/global1.php?stream=starplus16" },
+            "starplus17": { url: "https://streamtp1.com/global1.php?stream=starplus17" },
+            "starplus18": { url: "https://streamtp1.com/global1.php?stream=starplus18" },
+            "starplus19": { url: "https://streamtp1.com/global1.php?stream=starplus19" },
+            "starplus20": { url: "https://streamtp1.com/global1.php?stream=starplus20" },
+            "max1": { url: "https://streamtp1.com/global1.php?stream=max1" },
+            "max2": { url: "https://streamtp1.com/global1.php?stream=max2" },
+            "max3": { url: "https://streamtp1.com/global1.php?stream=max3" },
+            "max4": { url: "https://streamtp1.com/global1.php?stream=max4" },
+            "max5": { url: "https://streamtp1.com/global1.php?stream=max5" },
             "eventos1": { url: "https://streamtp1.com/global1.php?stream=eventos1" },
             "eventos2": { url: "https://streamtp1.com/global1.php?stream=eventos2" },
             "eventos3": { url: "https://streamtp1.com/global1.php?stream=eventos3" },
@@ -213,6 +245,17 @@
             "nfl08": { url: "https://streamtp1.com/global1.php?stream=nfl08" },
             "nfl09": { url: "https://streamtp1.com/global1.php?stream=nfl09" },
             "nfl10": { url: "https://streamtp1.com/global1.php?stream=nfl10" },
+            "peacock1": { url: "https://streamtp1.com/global1.php?stream=peacock1" },
+            "peacock2": { url: "https://streamtp1.com/global1.php?stream=peacock2" },
+            "peacock3": { url: "https://streamtp1.com/global1.php?stream=peacock3" },
+            "peacock4": { url: "https://streamtp1.com/global1.php?stream=peacock4" },
+            "peacock5": { url: "https://streamtp1.com/global1.php?stream=peacock5" },
+            "peacock6": { url: "https://streamtp1.com/global1.php?stream=peacock6" },
+            "peacock7": { url: "https://streamtp1.com/global1.php?stream=peacock7" },
+            "peacock8": { url: "https://streamtp1.com/global1.php?stream=peacock8" },
+            "peacock9": { url: "https://streamtp1.com/global1.php?stream=peacock9" },
+            "peacock10": { url: "https://streamtp1.com/global1.php?stream=peacock10" },
+
 
             "digi1": { url: "https://sporturi-live.ro/meci.php?url=https://tvcanale.live/embed.php?id=62" },
             "digi2": { url: "https://sporturi-live.ro/meci.php?url=https://tvcanale.live/embed.php?id=63" },
@@ -230,8 +273,26 @@
             "eurosport2": { url: "https://sporturi-live.ro/meci.php?url=https://tvcanale.live/embed.php?id=15" },
             "extremesports": { url: "https://sporturi-live.ro/meci.php?url=https://tvcanale.live/embed.php?id=146" },
 
-            "cbcsport_az": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/434/9195C9EF9216242/video.m3u8" },
-            "idmantv_az": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/434/9195C9EF9216242/video.m3u8" },
+            "cbc_sport_az": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/434/A05E1ACFF8AB394/video.m3u8" },
+            "idmantv_az": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/434/A05E1ACFF8AB394/video.m3u8" },
+
+            "espn1_br": { url: "https://bebe2007.github.io/player.html?url=https://anonmedia.foo/espn/tracks-v1a1/mono.m3u8" },
+            "espn2_br": { url: "https://bebe2007.github.io/player.html?url=https://anonmedia.foo/espn2/tracks-v1a1/mono.m3u8" },
+            "espn3_br": { url: "https://bebe2007.github.io/player.html?url=https://anonmedia.foo/espn3/tracks-v1a1/mono.m3u8" },
+            "espn4_br": { url: "https://bebe2007.github.io/player.html?url=https://anonmedia.foo/espn4/tracks-v1a1/mono.m3u8" },
+            "espn5_br": { url: "https://bebe2007.github.io/player.html?url=https://anonmedia.foo/espn5/tracks-v1a1/mono.m3u8" },
+            "espn6_br": { url: "https://bebe2007.github.io/player.html?url=https://anonmedia.foo/espn6/tracks-v1a1/mono.m3u8" },
+            "premiere1_br": { url: "https://bebe2007.github.io/player.html?url=https://anonmedia.foo/premiereclubes/tracks-v1a1/mono.m3u8" },
+            "premiere2_br": { url: "https://bebe2007.github.io/player.html?url=https://anonmedia.foo/premiere2/tracks-v1a1/mono.m3u8" },
+            "premiere3_br": { url: "https://bebe2007.github.io/player.html?url=https://anonmedia.foo/premiere3/tracks-v1a1/mono.m3u8" },
+            "premiere4_br": { url: "https://bebe2007.github.io/player.html?url=https://anonmedia.foo/premiere4/tracks-v1a1/mono.m3u8" },
+            "premiere5_br": { url: "https://bebe2007.github.io/player.html?url=https://anonmedia.foo/premiere5/tracks-v1a1/mono.m3u8" },
+            "premiere6_br": { url: "https://bebe2007.github.io/player.html?url=https://anonmedia.foo/premiere6/tracks-v1a1/mono.m3u8" },
+            "premiere7_br": { url: "https://bebe2007.github.io/player.html?url=https://anonmedia.foo/premiere7/tracks-v1a1/mono.m3u8" },
+            "premiere8_br": { url: "https://bebe2007.github.io/player.html?url=https://anonmedia.foo/premiere8/tracks-v1a1/mono.m3u8" },
+            "sport1_br": { url: "https://bebe2007.github.io/player.html?url=https://anonmedia.foo/sportv/tracks-v1a1/mono.m3u8" },
+            "sport2_br": { url: "https://bebe2007.github.io/player.html?url=https://anonmedia.foo/sportv2/tracks-v1a1/mono.m3u8" },
+            "sport3_br": { url: "https://bebe2007.github.io/player.html?url=https://anonmedia.foo/sportv3/tracks-v1a1/mono.m3u8" },
 
             "orfsportplus": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/936/A05E1ACFF8AB394/video.m3u8" },
 
@@ -274,8 +335,8 @@
             "skytopevent_de": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/925/A05E1ACFF8AB394/video.m3u8" },
             "skysportspremierleague_de": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/818/A05E1ACFF8AB394/video.m3u8" },
 
-            "silksport1_georgia": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/418/9195C9EF9216242/video.m3u8" },
-            "silksport2_georgia": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/1491/9195C9EF9216242/video.m3u8" },
+            "silksport1_georgia": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/418/A05E1ACFF8AB394/video.m3u8" },
+            "silksport2_georgia": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/1491/A05E1ACFF8AB394/video.m3u8" },
 
             "sport1_israel": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/1522/A05E1ACFF8AB394/video.m3u8" },
             "sport2_israel": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/1521/A05E1ACFF8AB394/video.m3u8" },
@@ -290,7 +351,7 @@
             "wesport_md": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/11001/A05E1ACFF8AB394/video.m3u8" },
             "moldova1": { url: "https://bebe2007.github.io/player.html?url=https://v0.trm.md/static/streaming-playlists/hls/9b79338b-1870-4cd7-91d4-0f6ce5cac7ca/0.m3u8" },
 
-            "polast_sport": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/5456/9195C9EF9216242/video.m3u8" },
+            "polast_sport": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/5456/A05E1ACFF8AB394/video.m3u8" },
             "polsatpremium1": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/5447/A05E1ACFF8AB394/video.m3u8" },
             "polsatpremium2": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/5448/A05E1ACFF8AB394/video.m3u8" },
             "polsatsport1": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/5456/A05E1ACFF8AB394/video.m3u8" },
@@ -325,7 +386,7 @@
             "match2": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/271/A05E1ACFF8AB394/video.m3u8" },
             "match3": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/329/A05E1ACFF8AB394/video.m3u8" },
             "match": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/397/A05E1ACFF8AB394/video.m3u8" },
-            "match_premier": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/250/9195C9EF9216242/video.m3u8" },
+            "match_premier": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/250/A05E1ACFF8AB394/video.m3u8" },
 
             "spiler1_hu": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/773/A05E1ACFF8AB394/video.m3u8" },
             "spiler2_hu": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/761/A05E1ACFF8AB394/video.m3u8" },
@@ -340,27 +401,34 @@
             "setanta1_ua": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/1434/A05E1ACFF8AB394/video.m3u8" },
             "setanta2_ua": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/943/A05E1ACFF8AB394/video.m3u8" },
             "setanta3_ua": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/1495/A05E1ACFF8AB394/video.m3u8" },
-            "divisport_ua": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/315/9195C9EF9216242/video.m3u8" },
-            "susplinesport_ua": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/316/9195C9EF9216242/video.m3u8" },
+            "divisport_ua": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/315/A05E1ACFF8AB394/video.m3u8" },
+            "susplinesport_ua": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/316/A05E1ACFF8AB394/video.m3u8" },
 
             "cbs_sports_network": { url: "https://bebe2007.github.io/player.html?url=http://fl2.moveonjoy.com/CBS_SPORTS_NETWORK/index.m3u8" },
 
-            "sport1_lituania": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/3714/9195C9EF9216242/video.m3u8" },
-            "go3sport1": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/6709/9195C9EF9216242/video.m3u8" },
-            "go3sport2": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/6710/9195C9EF9216242/video.m3u8" },
-            "go3sport3": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/6711/9195C9EF9216242/video.m3u8" },
-            "go3sportopen": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/6711/9195C9EF9216242/video.m3u8" },
+            "sport1_lituania": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/3714/A05E1ACFF8AB394/video.m3u8" },
+            "go3sport1": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/6709/A05E1ACFF8AB394/video.m3u8" },
+            "go3sport2": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/6710/A05E1ACFF8AB394/video.m3u8" },
+            "go3sport3": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/6711/A05E1ACFF8AB394/video.m3u8" },
+            "go3sportopen": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/6711/A05E1ACFF8AB394/video.m3u8" },
 
 
-            "tntsport1_uk": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/922/9195C9EF9216242/video.m3u8" },
+            "tntsport1_uk": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/922/A05E1ACFF8AB394/video.m3u8" },
 
-            "skysports1_austria": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/5129/9195C9EF9216242/video.m3u8" },
+            "skysports1_austria": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/5129/A05E1ACFF8AB394/video.m3u8" },
 
-            "dubaisports2": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/5406/9195C9EF9216242/video.m3u8" },
-            "dubaisports3": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/5407/9195C9EF9216242/video.m3u8" },
+            "dubaisports2": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/5406/A05E1ACFF8AB394/video.m3u8" },
+            "dubaisports3": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/5407/A05E1ACFF8AB394/video.m3u8" },
 
-            "digisport1": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/11068/9195C9EF9216242/video.m3u8" },
-            "digisport2": { url: "https://bebe2007.github.io/player.html?url=https://pl.seetv.cc/play/11069/9195C9EF9216242/video.m3u8" },
+
+            "digisport1": { url: "https://bebe2007.github.io/player.html?url=https://allcaster.pro:8089/hls/68SpErxbHXm6.m3u8?st=9TENs2DkIq2MZBI3YBaAGmkqg95zS5nb6HsAoK4fT4E&e=1732915994" },
+            "digisport2": { url: "https://bebe2007.github.io/player.html?url=https://p13.magicplaces.eu/digisport2hd/index.m3u8?token=827eec9d09f533b0f0d41da3f2ace46e1becddae-1dd65c453f1c39e5343060552077def4-1732732861-1732722061&remote=no_check_ip" },
+            "digisport3": { url: "https://bebe2007.github.io/player.html?url=https://p13.magicplaces.eu/digisport3hd/index.m3u8?token=168dca70aa14b588ebc139363222aab67fa2060c-f6217abfe19094a5b86bcb35a99f4015-1732732900-1732722100&remote=no_check_ip" },
+            "digisport4": { url: "https://bebe2007.github.io/player.html?url=https://p13.magicplaces.eu/digisport4hd/index.m3u8?token=c375efd8c9ce668e252312b99fe4a06da57f7ab2-d74aa3903c8b15da2d98bab14d0ff5c1-1732732962-1732722162&remote=no_check_ip" },
+            "primasport1": { url: "https://bebe2007.github.io/player.html?url=https://p13.magicplaces.eu/primasport1hd/video.m3u8?token=3b94db725a96008eb0bf46f4b0e349d381ed1972-683de07e56ce6c8b8c58674f8428da1a-1732732785-1732721985&remote=no_check_ip" },
+            "primasport2": { url: "https://bebe2007.github.io/player.html?url=https://p13.magicplaces.eu/primasport2sd/video.m3u8?token=99079cf12dcc81480993183c15eb511a681fb8db-6611cfbdc74392e49b8d8f0267a354b0-1732732722-1732721922&remote=no_check_ip" },
+            "primasport3": { url: "https://bebe2007.github.io/player.html?url=https://p11.magicplaces.eu/primasport3sd/video.m3u8?token=9a48c21374178a442626e3172214146b4d91e215-f4c1c14eacd8598d33c26b22727a2ce4-1732732617-1732721817&remote=no_check_ip" },
+
 
             "bein1_tr": { url: "https://bebe2007.github.io/player.html?url=https://100.zortstream.shop/601/index.m3u8" },
             "bein2_tr": { url: "https://bebe2007.github.io/player.html?url=https://100.zortstream.shop/602/index.m3u8" },
@@ -380,15 +448,16 @@
 
 
 
+
         };
 
         // Încarcă canalul selectat
         function loadChannel() {
-            const channelId = getParameterByName('url'); // Preia parametrul 'url'
-            const channel = ConfigurareCanale[channelId]; // Folosește canalul corespunzător
+            const id = getParameterByName('id');
+            const channel = ConfigurareCanale[id];
 
             if (channel) {
-                document.getElementById('player').src = channel.url; // Setează URL-ul sursei video
+                document.getElementById('player').src = channel.url;
             } else {
                 document.getElementById('player').src = "about:blank"; // În caz că ID-ul nu e valid
             }
@@ -400,12 +469,11 @@
 </head>
 <body>
     <div class="video-player">
+
         <iframe id="player" src="" frameborder="0" allowfullscreen></iframe>
         <div class="message">
-            <div style="text-align: center;">
-                <span style="color: rgb(255, 255, 0);"><strong>ATENȚIE</strong>!</span>
-                <span style="color: rgb(255, 255, 255);">Acest site nu găzduiește și nu emite nici un stream live pe internet! Este doar o interfață, un motor de căutare ce indexează link-urile publice aflate în circulație liberă pe internet.</span>
-            </div>
+<div style="text-align: center;"><span style="color: rgb(255, 255, 0);"><strong>ATENȚIE</strong>!</span> <span style="color: rgb(255, 255, 255);">Acest site nu găzduiește și nu emite nici un stream live pe internet! Este doar o interfață, un motor de căutare ce indexează link-urile publice aflate &icirc;n circulație liberă pe internet.</span></div>
+
         </div>
         <button class="button" onclick="location.reload();">Refresh this page / Click aici pentru a reînposprăta pagina</button>
     </div>
