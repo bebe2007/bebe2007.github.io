@@ -1,6 +1,9 @@
 <h1>🌍 Bine ai venit la <strong>Sporturi Live</strong>! 🏆🎥</h1>
 <h2>🥇 Platforma Ta de Top pentru Sport și Televiziune Live!</h2>
 <p><strong>Sporturi Live</strong> este destinația supremă pentru pasionații de sport și televiziune live. Cu peste <strong>150+ canale TV sportive</strong> din &icirc;ntreaga lume 🌏, &icirc;ți oferim acces la cele mai spectaculoase competiții și evenimente, direct de pe orice dispozitiv 📱💻.</p>
+
+<iframe src="https://sporturi-live.ro/view-events.html" width="100%" height="1000"></iframe>
+
 <hr />
 <h2>🎯 Ce vei găsi pe <strong>Sporturi Live</strong>?</h2>
 <h3>🔥 <strong>150+ Posturi TV Sportive Live</strong></h3>
