@@ -9,44 +9,43 @@
             margin: 0;
             padding: 0;
             height: 100%;
-            overflow: hidden; /* Ascunde bara de defilare */
+            overflow: hidden;
             background-image: url('https://sporturi-live.ro/blackground.jpg');
             background-size: cover;
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
-            position: relative; /* Permite poziționarea logo-ului */
+            position: relative;
         }
         .video-player {
-            width: 100%; /* Lățimea player-ului */
-            height: 100%; /* Înălțimea player-ului */
-            border: 3px solid white; /* Chenar alb */
-            border-radius: 10px; /* Colțuri rotunjite */
-            overflow: hidden; /* Ascunde overflow-ul */
-            background-color: rgba(0, 0, 0, 0.7); /* Fundal semi-transparent */
+            width: 100%;
+            height: 100%;
+            border: 3px solid white;
+            border-radius: 10px;
+            overflow: hidden;
+            background-color: rgba(0, 0, 0, 0.7);
             display: flex;
             flex-direction: column;
-            align-items: center; /* Centrează butoanele și mesajul */
-            margin-bottom: 20px; /* Spațiu pentru logo */
-            position: relative; /* Poziționare relativă pentru butoane și mesaj */
+            align-items: center;
+            margin-bottom: 20px;
+            position: relative;
         }
         iframe {
             width: 100%;
-            height: 100%; /* Fă playerul să ocupe întreaga înălțime a div-ului */
+            height: 100%;
             border: none;
         }
-.logo {
-    position: absolute;
-    bottom: 40px; /* Poziționare jos */
-    right: 10px; /* Poziționare dreapta */
-    opacity: 0.5; /* Opacitate de 50% */
-    width: 50px; /* Lățimea logo-ului */
-    z-index: 10; /* Asigură-te că logo-ul este deasupra altor elemente */
-}
-
+        .logo {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 150px;
+            opacity: 0.4;
+            z-index: 10;
+        }
         .button {
-            background-color: #4CAF50; /* Verde */
+            background-color: #4CAF50;
             border: none;
             color: white;
             padding: 15px 32px;
@@ -56,13 +55,13 @@
             font-size: 16px;
             margin: 10px 0;
             cursor: pointer;
-            border-radius: 12px; /* Colțuri rotunjite */
+            border-radius: 12px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             transition: 0.3s;
-            z-index: 5; /* Asigură-te că butoanele sunt deasupra player-ului */
+            z-index: 5;
         }
         .button:hover {
-            background-color: #45a049; /* Schimbă culoarea la hover */
+            background-color: #45a049;
         }
         .message {
             color: white;
@@ -70,20 +69,27 @@
             font-size: 14px;
             max-width: 600px;
             margin: 10px;
-            z-index: 5; /* Asigură-te că mesajul este deasupra player-ului */
+            z-index: 5;
+        }
+        .refresh-container {
+            display: flex;
+            align-items: center;
+        }
+        .refresh-logo {
+            margin-left: 10px;
+            width: 50px;
+            opacity: 0.8;
         }
     </style>
     <script>
-        // Obține parametrul 'id' din URL
         function getParameterByName(name) {
             const url = new URL(window.location.href);
             return url.searchParams.get(name);
         }
 
-        // Configurarea canalelor și a linkurilor
         const ConfigurareCanale = {
-		
-	    "premiersports1_irl": { url: "https://streamtp1.com/global1.php?stream=premiersports1_irl" },
+
+            "premiersports1_irl": { url: "https://streamtp1.com/global1.php?stream=premiersports1_irl" },
             "premiersports2_irl": { url: "https://streamtp1.com/global1.php?stream=premiersports2_irl" },
             "tnt1_gb": { url: "https://streamtp1.com/global1.php?stream=tnt_1_gb" },
             "tnt2_gb": { url: "https://streamtp1.com/global1.php?stream=tnt_2_gb" },
@@ -314,8 +320,9 @@
 
 
 
-
-
+            "spotv_korea": { url: "https://bebe2007.github.io/player.html?url=https://delivery-cdnisg1.iptvsystem.my.id/joss/133/beib1/index.m3u8" },
+            "spotv2_korea": { url: "https://bebe2007.github.io/player.html?url=https://delivery-cdnisg1.iptvsystem.my.id/joss/133/beib2/index.m3u8" },
+            "nbatv": { url: "https://bebe2007.github.io/player.html?url=https://delivery-cdnisg1.iptvsystem.my.id/joss/133/nba/index.m3u8" },
 
             "espn1_br": { url: "https://bebe2007.github.io/player.html?url=https://super-cdn.link/espn/index.m3u8" },
             "espn2_br": { url: "https://bebe2007.github.io/player.html?url=https://super-cdn.link/espn2/index.m3u8" },
@@ -459,7 +466,7 @@
             "laligahypermotion": { url: "https://enz.gdplayertv.to/live-tv/laliga-hypermotion/?alt=0&embed=1" },
             "laligalivehypermotion": { url: "https://enz.gdplayertv.to/live-tv/laliga-live-hypermotion/?alt=0&embed=1" },
             "laligaplus": { url: "https://enz.gdplayertv.to/live-tv/laliga-plus/?alt=0&embed=1" },
-            "movistarlaliga": { url: "https://enz.gdplayertv.to/live-tv/movistar-laliga/?alt=0&embed=1" },
+            "movistar_laliga": { url: "https://enz.gdplayertv.to/live-tv/movistar-laliga/?alt=0&embed=1" },
             "movistarligadecampeones": { url: "https://enz.gdplayertv.to/live-tv/movistar-liga-de-campeones/?alt=0&embed=1" },
             "movistardeportes": { url: "https://enz.gdplayertv.to/live-tv/movistar-deportes/?alt=0&embed=1" },
             "movistardeportes2": { url: "https://enz.gdplayertv.to/live-tv/movistar-deportes-2/?alt=0&embed=1" },
@@ -940,7 +947,6 @@
 
         };
 
-        // Încarcă canalul selectat
         function loadChannel() {
             const id = getParameterByName('id');
             const channel = ConfigurareCanale[id];
@@ -948,24 +954,26 @@
             if (channel) {
                 document.getElementById('player').src = channel.url;
             } else {
-                document.getElementById('player').src = "about:blank"; // În caz că ID-ul nu e valid
+                document.getElementById('player').src = "about:blank";
             }
         }
 
-        // Execută funcția când pagina se încarcă
         window.onload = loadChannel;
     </script>
 </head>
 <body>
     <div class="video-player">
-
         <iframe id="player" src="" frameborder="0" allowfullscreen></iframe>
         <div class="message">
-<div style="text-align: center;"><span style="color: rgb(255, 255, 0);"><strong>ATENȚIE</strong>!</span> <span style="color: rgb(255, 255, 255);">Acest site nu găzduiește și nu emite nici un stream live pe internet! Este doar o interfață, un motor de căutare ce indexează link-urile publice aflate &icirc;n circulație liberă pe internet.</span></div>
-
+            <div style="text-align: center;"><span style="color: rgb(255, 255, 0);"><strong>ATENȚIE</strong>!</span> <span style="color: rgb(255, 255, 255);">Acest site nu găzduiește și nu emite nici un stream live pe internet! Este doar o interfață, un motor de căutare ce indexează link-urile publice aflate într-o circulație liberă pe internet.</span></div>
         </div>
-        <button class="button" onclick="location.reload();">Refresh this page / Click aici pentru a reînposprăta pagina</button>
+        <div class="refresh-container">
+            <button class="button" onclick="location.reload();">Refresh this page / Click aici pentru a reînposprăta pagina</button>
+            <img class="refresh-logo" src="https://sporturi-live.ro/bratumarian.jpg" alt="Logo">
+        </div>
+        <a href="https://sporturi-live.ro/" target="_blank">
+            <img class="logo" src="https://sporturi-live.ro/wp-content/uploads/2025/01/logo-300x54.png" alt="Sporturi Live Logo">
+        </a>
     </div>
-    <img class="logo" src="https://sporturi-live.ro/wp-content/uploads/2024/10/2.jpg" alt="Logo UEFA">
 </body>
 </html>
