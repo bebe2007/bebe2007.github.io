@@ -1006,6 +1006,7 @@
 
 
 
+
         };
 
         // Încarcă canalul selectat
@@ -1031,30 +1032,5 @@
     <a href="https://sporturi-live.ro/" target="_blank">
         <img class="logo" src="https://sporturi-live.ro/wp-content/uploads/2025/01/logo-300x54.png" alt="Sporturi Live Logo">
     </a>
-
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        function getParameterByName(name) {
-            const url = new URL(window.location.href);
-            return url.searchParams.get(name);
-        }
-
-        const id = getParameterByName("id");
-
-        if (typeof ConfigurareCanale !== "undefined" && id && ConfigurareCanale[id]) {
-            const iframe = document.createElement("iframe");
-            iframe.src = ConfigurareCanale[id].url;
-            iframe.allowFullscreen = true;
-            iframe.style.width = "100%";
-            iframe.style.height = "100vh";
-            iframe.style.border = "none";
-            document.body.innerHTML = '';
-            document.body.appendChild(iframe);
-        } else {
-            document.body.innerHTML = "<h2 style='color:white;text-align:center;padding-top:20vh;'>Canalul nu a fost găsit sau ID-ul este invalid.</h2>";
-        }
-    });
-</script>
-
 </body>
 </html>
