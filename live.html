@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sporturi Live - Urmărește în direct sportul tău preferat</title>
+    <title>Sporturi Live , Urmărește în direct sportul tău preferat </title>
     <style type="text/css">
         body, html {
             margin: 0;
@@ -17,7 +17,6 @@
             align-items: center;
             flex-direction: column;
             position: relative;
-            box-sizing: border-box;
         }
         .video-player {
             width: 100%;
@@ -84,21 +83,25 @@
     </style>
     <script>
         function getParameterByName(name) {
-            const urlParams = new URLSearchParams(window.location.search);
-            return urlParams.get(name);
+            const url = new URL(window.location.href);
+            return url.searchParams.get(name);
         }
 
         const ConfigurareCanale = {
-            "WPIX": {
-                "name": "WPIX New York ",
-                "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/WPIX/tracks-v1a1/mono.m3u8",
-                "country": "us"
-            },
-            "yes-network": {
-                "name": "Yes Network ",
-                "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/yes-network/tracks-v1a1/mono.m3u8",
-                "country": "us"
-            }
+
+    "WPIX": {
+        "name": "WPIX New York (SUPERSTATION) HD",
+        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/WPIX/tracks-v1a1/mono.m3u8",
+        "country": "us"
+    },
+    "yes-network": {
+        "name": "Yes Network HD",
+        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/yes-network/tracks-v1a1/mono.m3u8",
+        "country": "us"
+}
+}
+
+
         };
 
         function loadChannel() {
@@ -109,21 +112,20 @@
                 document.getElementById('player').src = channel.url;
             } else {
                 document.getElementById('player').src = "about:blank";
-                alert("Canalul nu a fost găsit!");
             }
         }
 
-        window.addEventListener('DOMContentLoaded', loadChannel);
+        window.onload = loadChannel;
     </script>
 </head>
 <body>
     <div class="video-player">
-        <iframe id="player" src="" frameborder="0" allowfullscreen title="Player Video"></iframe>
+        <iframe id="player" src="" frameborder="0" allowfullscreen></iframe>
         <div class="message">
-            <div style="text-align: center;"><strong>ATENȚIE</strong>! Acest site nu găzduiește și nu emite nici un stream live pe internet! Este doar o interfață, un motor de căutare ce indexează link-urile publice aflate într-o circulație liberă pe internet.</div>
+            <div style="text-align: center;"><span style="color: rgb(255, 255, 0);"><strong>ATENȚIE</strong>!</span> <span style="color: rgb(255, 255, 255);">Acest site nu găzduiește și nu emite nici un stream live pe internet! Este doar o interfață, un motor de căutare ce indexează link-urile publice aflate într-o circulație liberă pe internet.</span></div>
         </div>
         <div class="refresh-container">
-            <button class="button" onclick="loadChannel();">Reîncarcă Playerul</button>
+            <button class="button" onclick="location.reload();">Refresh this page / Click aici pentru a reînposprăta pagina</button>
             <img class="refresh-logo" src="https://sporturi-live.ro/bratumarian.jpg" alt="Logo">
         </div>
         <a href="https://sporturi-live.ro/" target="_blank">
