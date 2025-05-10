@@ -1125,9 +1125,9 @@
         "url": "https://bebe2007.github.io/player.html?url=https://cnm-tsl.otteravision.com/cnm/tsl/tsl.m3u8",
         "country": "py"
     },
-    "m4sport_play4youicu": {
+    "m4sport": {
         "name": "M4 Sport (Ungaria)",
-        "url": "https://bebe2007.github.io/player.html?url=https://play4you.icu/e/r4a6g0bb5t",
+        "url": "https://play4you.icu/e/r4a6g0bb5t",
         "country": "hu"
     },
     "belarus5": {
