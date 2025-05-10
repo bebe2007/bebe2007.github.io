@@ -1007,132 +1007,132 @@
     },
     "vodafone_sport": {
         "name": "Vodafone Sport",
-        "url": "https://sporturi-live.ro/player2.php?url=https://windnew.newkso.ru/wind/premium260/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://windnew.newkso.ru/wind/premium260/mono.m3u8",
         "country": "pl"
    },
     "polsat_sport_2_polonia": {
         "name": "Polsat Sport 2 (Polonia) [Surs\u0103 2]",
-        "url": "https://sporturi-live.ro/player2.php?url=https://windnew.newkso.ru/wind/premium50/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://windnew.newkso.ru/wind/premium50/mono.m3u8",
         "country": "pl"
     },
     "canal_3_sport_polonia": {
         "name": "Canal 3 Sport (Polonia)",
-        "url": "https://sporturi-live.ro/player2.php?url=https://windnew.newkso.ru/wind/premium259/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://windnew.newkso.ru/wind/premium259/mono.m3u8",
         "country": "pl"
     },
     "band_sport_brazilia": {
         "name": "Band Sport (Brazilia)",
-        "url": "https://sporturi-live.ro/player2.php?url=https://windnew.newkso.ru/wind/premium275/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://windnew.newkso.ru/wind/premium275/mono.m3u8",
         "country": "br"
     },
     "laliga_tv_uk": {
         "name": "La Liga TV (Marea Britanie)",
-        "url": "https://sporturi-live.ro/player2.php?url=https://windnew.newkso.ru/wind/premium276/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://windnew.newkso.ru/wind/premium276/mono.m3u8",
         "country": "gb"
     },
     "trt_spor_turcia": {
         "name": "TRT Spor (Turcia)",
-        "url": "https://sporturi-live.ro/player2.php?url=https://windnew.newkso.ru/wind/premium889/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://windnew.newkso.ru/wind/premium889/mono.m3u8",
         "country": "tr"
     },
     "cytavisionsport1": {
         "name": "Cytavision Sport 1 (Cipru)",
-        "url": "https://sporturi-live.ro/player2.php?url=https://windnew.newkso.ru/wind/premium911/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://windnew.newkso.ru/wind/premium911/mono.m3u8",
         "country": "cy"
     },
     "cytavisionsport2": {
         "name": "Cytavision Sport 2 (Cipru)",
-        "url": "https://sporturi-live.ro/player2.php?url=https://windnew.newkso.ru/wind/premium912/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://windnew.newkso.ru/wind/premium912/mono.m3u8",
         "country": "cy"
     },
     "cytavisionsport3": {
         "name": "Cytavision Sport 3 (Cipru)",
-        "url": "https://sporturi-live.ro/player2.php?url=https://windnew.newkso.ru/wind/premium913/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://windnew.newkso.ru/wind/premium913/mono.m3u8",
         "country": "cy"
     },
     "cytavisionsport4": {
         "name": "Cytavision Sport 4 (Cipru)",
-        "url": "https://sporturi-live.ro/player2.php?url=https://windnew.newkso.ru/wind/premium914/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://windnew.newkso.ru/wind/premium914/mono.m3u8",
         "country": "cy"
     },
     "cytavisionsport5": {
         "name": "Cytavision Sport 5 (Cipru)",
-        "url": "https://sporturi-live.ro/player2.php?url=https://windnew.newkso.ru/wind/premium915/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://windnew.newkso.ru/wind/premium915/mono.m3u8",
         "country": "cy"
     },
     "cytavisionsport6": {
         "name": "Cytavision Sport 6 (Cipru)",
-        "url": "https://sporturi-live.ro/player2.php?url=https://windnew.newkso.ru/wind/premium916/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://windnew.newkso.ru/wind/premium916/mono.m3u8",
         "country": "cy"
     },
     "cytavisionsport7": {
         "name": "Cytavision Sport 7 (Cipru)",
-        "url": "https://sporturi-live.ro/player2.php?url=https://windnew.newkso.ru/wind/premium917/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://windnew.newkso.ru/wind/premium917/mono.m3u8",
         "country": "cy"
     },
     "vtvplus_uruguay": {
         "name": "VTV Plus (Uruguay) [Surs\u0103 2]",
-        "url": "https://sporturi-live.ro/player2.php?url=https://windnew.newkso.ru/wind/premium391/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://windnew.newkso.ru/wind/premium391/mono.m3u8",
         "country": "uy"
     },
     "bahrain_sport1": {
         "name": "Bahrain Sport 1",
-        "url": "https://sporturi-live.ro/player2.php?url=https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8",
         "country": "bh"
     },
     "bahrain_sport2": {
         "name": "Bahrain Sport 2",
-        "url": "https://sporturi-live.ro/player2.php?url=https://5c7b683162943.streamlock.net/live/ngrp:bahrainsportstwo_all/.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://5c7b683162943.streamlock.net/live/ngrp:bahrainsportstwo_all/.m3u8",
         "country": "bh"
     },
     "dazn_wemens": {
         "name": "DAZN Wemens",
-        "url": "https://sporturi-live.ro/player2.php?url=https://csm-e-eb.csm.tubi.video/csm/extlive/tubiprd01,Dazn-Womens-Football.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://csm-e-eb.csm.tubi.video/csm/extlive/tubiprd01,Dazn-Womens-Football.m3u8",
         "country": "gb"
     },
     "beinespaniol": {
         "name": "beIN Sports Espaniol",
-        "url": "https://sporturi-live.ro/player2.php?url=https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8",
         "country": "es"
     },
     "realmadrid": {
         "name": "Real Madrid TV",
-        "url": "https://sporturi-live.ro/player2.php?url=https://rmtv-canela.amagi.tv/playlist.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://rmtv-canela.amagi.tv/playlist.m3u8",
         "country": "es"
     },
     "dubaisports1": {
         "name": "Dubai Sports 1",
-        "url": "https://sporturi-live.ro/player2.php?url=https://dmidspta.cdn.mgmlcdn.com/dubaisports/smil:dubaisports.stream.smil/.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://dmidspta.cdn.mgmlcdn.com/dubaisports/smil:dubaisports.stream.smil/.m3u8",
         "country": "ae"
     },
     "dubaisports2": {
         "name": "Dubai Sports 2",
-        "url": "https://sporturi-live.ro/player2.php?url=https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/.m3u8",
         "country": "ae"
     },
     "dubaisports3": {
         "name": "Dubai Sports 3",
-        "url": "https://sporturi-live.ro/player2.php?url=https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/.m3u8",
         "country": "ae"
     },
     "omansports": {
         "name": "Oman Sports",
-        "url": "https://sporturi-live.ro/player2.php?url=https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/.m3u8",
         "country": "om"
     },
     "tigosport_paraguay": {
         "name": "Tigo Sport (Paraguay)",
-        "url": "https://sporturi-live.ro/player2.php?url=https://cnm-tsl.otteravision.com/cnm/tsl/tsl.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://cnm-tsl.otteravision.com/cnm/tsl/tsl.m3u8",
         "country": "py"
     },
     "m4sport_play4youicu": {
         "name": "M4 Sport (Ungaria)",
-        "url": "https://play4you.icu/e/r4a6g0bb5t",
+        "url": "https://bebe2007.github.io/player.html?url=https://play4you.icu/e/r4a6g0bb5t",
         "country": "hu"
     },
     "belarus5": {
         "name": "Belarus 5",
-        "url": "https://sporturi-live.ro/player2.php?url=https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8",
         "country": "by"
     },
     "ziggo_sport2": {
@@ -1252,217 +1252,217 @@
     },
     "ESPN_2": {
         "name": "ESPN 2 (USA)",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl5.moveonjoy.com/ESPN_2/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl5.moveonjoy.com/ESPN_2/index.m3u8",
         "country": "us"
     },
     "ESPN_U": {
         "name": "ESPNU (USA)",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl5.moveonjoy.com/ESPN_U/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl5.moveonjoy.com/ESPN_U/index.m3u8",
         "country": "us"
     },
     "FOX_Sports_1": {
         "name": "FOX Sports 1 (USA) [Sursa 2]",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl4.moveonjoy.com/FOX_Sports_1/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl4.moveonjoy.com/FOX_Sports_1/index.m3u8",
         "country": "us"
     },
     "ACC_NETWORK": {
         "name": "ACC NETWORK (USA)",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl6.moveonjoy.com/ACC_NETWORK/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl6.moveonjoy.com/ACC_NETWORK/index.m3u8",
         "country": "us"
     },
     "YES_NETWORK": {
         "name": "YES Network (USA)",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl6.moveonjoy.com/YES_NETWORK/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl6.moveonjoy.com/YES_NETWORK/index.m3u8",
         "country": "us"
     },
     "BEIN_SPORTS": {
         "name": "beIN Sports (USA)",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl6.moveonjoy.com/BEIN_SPORTS/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl6.moveonjoy.com/BEIN_SPORTS/index.m3u8",
         "country": "us"
     },
     "BIG_TEN_NETWORK": {
         "name": "Big Ten Network (USA)",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl4.moveonjoy.com/BIG_TEN_NETWORK/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl4.moveonjoy.com/BIG_TEN_NETWORK/index.m3u8",
         "country": "us"
     },
     "NBC_SPORTS_BOSTON": {
         "name": "NBC SPORTS_BOSTON",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl4.moveonjoy.com/NBC_SPORTS_BOSTON/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl4.moveonjoy.com/NBC_SPORTS_BOSTON/index.m3u8",
         "country": "us"
     },
     "BALLY_SPORTS_DETROIT": {
         "name": "BALLY SPORTS DETROIT",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl6.moveonjoy.com/BALLY_SPORTS_DETROIT/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl6.moveonjoy.com/BALLY_SPORTS_DETROIT/index.m3u8",
         "country": "us"
     },
     "BALLY_SPORTS_FLORIDA": {
         "name": "BALLY SPORTS FLORIDA",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl6.moveonjoy.com/BALLY_SPORTS_FLORIDA/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl6.moveonjoy.com/BALLY_SPORTS_FLORIDA/index.m3u8",
         "country": "us"
     },
     "BALLY_SPORTS_MIDWEST": {
         "name": "BALLY SPORTS MIDWEST",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl6.moveonjoy.com/BALLY_SPORTS_MIDWEST/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl6.moveonjoy.com/BALLY_SPORTS_MIDWEST/index.m3u8",
         "country": "us"
     },
     "BALLY_SPORTS_ARIZONA": {
         "name": "BALLY SPORTS ARIZONA",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl6.moveonjoy.com/BALLY_SPORTS_ARIZONA/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl6.moveonjoy.com/BALLY_SPORTS_ARIZONA/index.m3u8",
         "country": "us"
     },
     "BALLY_SPORTS_NEW_ORLEANS": {
         "name": "BALLY SPORTS NEW ORLEANS",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl6.moveonjoy.com/BALLY_SPORTS_NEW_ORLEANS/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl6.moveonjoy.com/BALLY_SPORTS_NEW_ORLEANS/index.m3u8",
         "country": "us"
     },
     "nbatv1": {
         "name": "NBA TV 1",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl6.moveonjoy.com/NBA_1/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl6.moveonjoy.com/NBA_1/index.m3u8",
         "country": "us"
     },
     "nbatv2": {
         "name": "NBA TV 2",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl6.moveonjoy.com/NBA_2/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl6.moveonjoy.com/NBA_2/index.m3u8",
         "country": "us"
     },
     "nbatv3": {
         "name": "NBA TV 3",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl6.moveonjoy.com/NBA_3/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl6.moveonjoy.com/NBA_3/index.m3u8",
         "country": "us"
     },
     "nbatv4": {
         "name": "NBA TV 4",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl6.moveonjoy.com/NBA_4/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl6.moveonjoy.com/NBA_4/index.m3u8",
         "country": "us"
     },
     "nbatv5": {
         "name": "NBA TV 5",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl6.moveonjoy.com/NBA_5/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl6.moveonjoy.com/NBA_5/index.m3u8",
         "country": "us"
     },
     "nbatv6": {
         "name": "NBA TV 6",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl6.moveonjoy.com/NBA_6/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl6.moveonjoy.com/NBA_6/index.m3u8",
         "country": "us"
     },
     "nbatv7": {
         "name": "NBA TV 7",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl6.moveonjoy.com/NBA_7/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl6.moveonjoy.com/NBA_7/index.m3u8",
         "country": "us"
     },
     "nbatv8": {
         "name": "NBA TV 8",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl6.moveonjoy.com/NBA_8/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl6.moveonjoy.com/NBA_8/index.m3u8",
         "country": "us"
     },
     "nbatv9": {
         "name": "NBA TV 9",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl6.moveonjoy.com/NBA_9/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl6.moveonjoy.com/NBA_9/index.m3u8",
         "country": "us"
     },
     "nbatv10": {
         "name": "NBA TV 10",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl6.moveonjoy.com/NBA_10/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl6.moveonjoy.com/NBA_10/index.m3u8",
         "country": "us"
     },
     "nbatv11": {
         "name": "NBA TV 11",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl6.moveonjoy.com/NBA_11/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl6.moveonjoy.com/NBA_11/index.m3u8",
         "country": "us"
     },
     "nbatv12": {
         "name": "NBA TV 12",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl6.moveonjoy.com/NBA_12/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl6.moveonjoy.com/NBA_12/index.m3u8",
         "country": "us"
     },
     "nbatv13": {
         "name": "NBA TV 13",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl6.moveonjoy.com/NBA_13/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl6.moveonjoy.com/NBA_13/index.m3u8",
         "country": "us"
     },
     "nbatv14": {
         "name": "NBA TV 14",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl6.moveonjoy.com/NBA_14/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl6.moveonjoy.com/NBA_14/index.m3u8",
         "country": "us"
     },
     "nbatv15": {
         "name": "NBA TV 15",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl6.moveonjoy.com/NBA_15/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl6.moveonjoy.com/NBA_15/index.m3u8",
         "country": "us"
     },
     "mlbtv1": {
         "name": "MLB TV 1",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl4.moveonjoy.com/MLB_1/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl4.moveonjoy.com/MLB_1/index.m3u8",
         "country": "us"
     },
     "mlbtv2": {
         "name": "MLB TV 2",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl4.moveonjoy.com/MLB_2/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl4.moveonjoy.com/MLB_2/index.m3u8",
         "country": "us"
     },
     "mlbtv3": {
         "name": "MLB TV 3",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl4.moveonjoy.com/MLB_3/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl4.moveonjoy.com/MLB_3/index.m3u8",
         "country": "us"
     },
     "mlbtv4": {
         "name": "MLB TV 4",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl4.moveonjoy.com/MLB_4/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl4.moveonjoy.com/MLB_4/index.m3u8",
         "country": "us"
     },
     "mlbtv5": {
         "name": "MLB TV 5",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl4.moveonjoy.com/MLB_5/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl4.moveonjoy.com/MLB_5/index.m3u8",
         "country": "us"
     },
     "mlbtv6": {
         "name": "MLB TV 6",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl4.moveonjoy.com/MLB_6/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl4.moveonjoy.com/MLB_6/index.m3u8",
         "country": "us"
     },
     "mlbtv7": {
         "name": "MLB TV 7",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl4.moveonjoy.com/MLB_7/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl4.moveonjoy.com/MLB_7/index.m3u8",
         "country": "us"
     },
     "mlbtv8": {
         "name": "MLB TV 8",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl4.moveonjoy.com/MLB_8/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl4.moveonjoy.com/MLB_8/index.m3u8",
         "country": "us"
     },
     "mlbtv9": {
         "name": "MLB TV 9",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl4.moveonjoy.com/MLB_9/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl4.moveonjoy.com/MLB_9/index.m3u8",
         "country": "us"
     },
     "mlbtv10": {
         "name": "MLB TV 10",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl4.moveonjoy.com/MLB_10/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl4.moveonjoy.com/MLB_10/index.m3u8",
         "country": "us"
     },
     "mlbtv11": {
         "name": "MLB TV 11",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl4.moveonjoy.com/MLB_11/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl4.moveonjoy.com/MLB_11/index.m3u8",
         "country": "us"
     },
     "mlbtv12": {
         "name": "MLB TV 12",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl4.moveonjoy.com/MLB_12/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl4.moveonjoy.com/MLB_12/index.m3u8",
         "country": "us"
     },
     "mlbtv13": {
         "name": "MLB TV 13",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl4.moveonjoy.com/MLB_13/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl4.moveonjoy.com/MLB_13/index.m3u8",
         "country": "us"
     },
     "mlbtv14": {
         "name": "MLB TV 14",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl4.moveonjoy.com/MLB_14/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl4.moveonjoy.com/MLB_14/index.m3u8",
         "country": "us"
     },
     "mlbtv15": {
         "name": "MLB TV 15",
-        "url": "https://sporturi-live.ro/player2.php?url=https://fl4.moveonjoy.com/MLB_15/index.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://fl4.moveonjoy.com/MLB_15/index.m3u8",
         "country": "us"
     },
     "digi1": {
@@ -3352,1047 +3352,1047 @@
 },
 "nbc_philadelphia": {
     "name": "NBC Sports Philadelphia",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/nbc-sports-philadelphia/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/nbc-sports-philadelphia/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "nbc_boston": {
     "name": "NBC Sports Boston",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/nbc-sports-boston/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/nbc-sports-boston/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "nbc_bayarea": {
     "name": "NBC Sports Bay Arena",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/nbc-sports-bay-area/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/nbc-sports-bay-area/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "espn_deportes": {
     "name": "ESPN Deportes",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/espn-deportes/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/espn-deportes/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "cbs_sports": {
     "name": "CBS Sports Network",
-    "url": "https://sporturi-live.ro/player2.php?url=https://fl3.moveonjoy.com/CBS_SPORTS_NETWORK/index.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://fl3.moveonjoy.com/CBS_SPORTS_NETWORK/index.m3u8",
     "country": "us"
 },
 "espn_usa": {
     "name": "ESPN USA",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/ESPN/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/ESPN/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "espn2_usa": {
     "name": "ESPN 2 USA",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/ESPN2/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/ESPN2/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "espnu": {
     "name": "ESPN U USA",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/ESPNU/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/ESPNU/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "btn": {
     "name": "Big Ten Network",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/BTN/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/BTN/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "fs1": {
     "name": "Fox Sports 1 US",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/FoxSports1/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/FoxSports1/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "fs2": {
     "name": "Fox Sports 2 US",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/FoxSports2/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/FoxSports2/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "sportsnet_360": {
     "name": "SportSnet 360",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/sportsnet-360/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/sportsnet-360/tracks-v1a1/mono.m3u8",
     "country": "ca"
 },
 "sportsnet_east": {
     "name": "SportSnet East",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/sportsnet-east/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/sportsnet-east/tracks-v1a1/mono.m3u8",
     "country": "ca"
 },
 "sportsnet_one": {
     "name": "SportSnet One",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/sportsnet-one/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/sportsnet-one/tracks-v1a1/mono.m3u8",
     "country": "ca"
 },
 "sportsnet_ontario": {
     "name": "SportSnet Ontario",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/sportsnet-ontario/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/sportsnet-ontario/tracks-v1a1/mono.m3u8",
     "country": "ca"
 },
 "sportsnet_pacific": {
     "name": "SportSnet Pacific",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/sportsnet-pacific/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/sportsnet-pacific/tracks-v1a1/mono.m3u8",
     "country": "ca"
 },
 "sportsnet_pittsburgh": {
     "name": "SportSnet Pittsburgh",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/sportsnet-pittsburgh/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/sportsnet-pittsburgh/tracks-v1a1/mono.m3u8",
     "country": "ca"
 },
 "sportsnet_west": {
     "name": "SportSnet West",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/sportsnet-west/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/sportsnet-west/tracks-v1a1/mono.m3u8",
     "country": "ca"
 },
 "fanduel_ok": {
     "name": "Fanduel Sports Network Oklahoma",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/fanduel-sports-network-oklahoma/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/fanduel-sports-network-oklahoma/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "fanduel_ga": {
     "name": "Fanduel Sports Southeast Georgia",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/fanduel-sports-southeast-georgia/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/fanduel-sports-southeast-georgia/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "fox_la": {
     "name": "FOX USA Los Angeles",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/fox-kttv-los-angeles-ca/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/fox-kttv-los-angeles-ca/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "fox_ny": {
     "name": "FOX USA New York",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/WNYWDT1/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/WNYWDT1/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "tudn": {
     "name": "TUDN USA",
-    "url": "https://sporturi-live.ro/player2.php?url=https://fl4.moveonjoy.com/TUDN/index.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://fl4.moveonjoy.com/TUDN/index.m3u8",
     "country": "us"
 },
 "mlb001": {
     "name": "MLB TV 01",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/mlb-01/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/mlb-01/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "mlb002": {
     "name": "MLB TV 02",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/mlb-02/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/mlb-02/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "mlb003": {
     "name": "MLB TV 03",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/mlb-03/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/mlb-03/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "mlb004": {
     "name": "MLB TV 04",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/mlb-04/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/mlb-04/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "mlb005": {
     "name": "MLB TV 05",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/mlb-05/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/mlb-05/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "mlb006": {
     "name": "MLB TV 06",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/mlb-06/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/mlb-06/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "mlb007": {
     "name": "MLB TV 07",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/mlb-07/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/mlb-07/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "mlb008": {
     "name": "MLB TV 08",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/mlb-08/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/mlb-08/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "mlb009": {
     "name": "MLB TV 09",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/mlb-09/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/mlb-09/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "mlb010": {
     "name": "MLB TV 10",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/mlb-10/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/mlb-10/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "mlb011": {
     "name": "MLB TV 11",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/mlb-11/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/mlb-11/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "mlb012": {
     "name": "MLB TV 12",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/mlb-12/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/mlb-12/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "mlb013": {
     "name": "MLB TV 13",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/mlb-13/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/mlb-13/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "mlb014": {
     "name": "MLB TV 14",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/mlb-14/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/mlb-14/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "mlb015": {
     "name": "MLB TV 15",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/mlb-15/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/mlb-15/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "mlb016": {
     "name": "MLB TV 16",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/mlb-16/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/mlb-16/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "mlb017": {
     "name": "MLB TV 17",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/mlb-17/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/mlb-17/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "mlb018": {
     "name": "MLB TV 18",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/mlb-18/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/mlb-18/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "mlb019": {
     "name": "MLB TV 19",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/mlb-19/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/mlb-19/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "mlb020": {
     "name": "MLB TV 20",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/mlb-20/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/mlb-20/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "mlb021": {
     "name": "MLB TV 21",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/mlb-21/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/mlb-21/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "mlb022": {
     "name": "MLB TV 22",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/mlb-22/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/mlb-22/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "mlb023": {
     "name": "MLB TV 23",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/mlb-23/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/mlb-23/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "mlb024": {
     "name": "MLB TV 24",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/mlb-24/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/mlb-24/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "mlb025": {
     "name": "MLB TV 25",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/mlb-25/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/mlb-25/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "mlb026": {
     "name": "MLB TV 26",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/mlb-26/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/mlb-26/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "mlb027": {
     "name": "MLB TV 27",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/mlb-27/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/mlb-27/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "mlb028": {
     "name": "MLB TV 28",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/mlb-28/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/mlb-28/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "mlb029": {
     "name": "MLB TV 29",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/mlb-29/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/mlb-29/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
 "mlb030": {
     "name": "MLB TV 30",
-    "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/mlb-30/tracks-v1a1/mono.m3u8",
+    "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/mlb-30/tracks-v1a1/mono.m3u8",
     "country": "us"
 },
     "AEEast": {
         "name": "A&E US Eastern Feed",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/AEEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/AEEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "abc-kabc-los-angeles-ca": {
         "name": "ABC (KABC) Los Angeles",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/abc-kabc-los-angeles-ca/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/abc-kabc-los-angeles-ca/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "WABCDT1": {
         "name": "NY\" group-title=\"Live\",ABC (WABC) New York, NY",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/WABCDT1/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/WABCDT1/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "ACCNetwork": {
         "name": "ACC Network",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/ACCNetwork/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/ACCNetwork/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "altitude-sports-denver": {
         "name": "Altitude Sports Denver",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/altitude-sports-denver/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/altitude-sports-denver/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "AMCEast": {
         "name": "AMC Eastern Feed",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/AMCEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/AMCEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "AmericanHeroesChannel": {
         "name": "American Heroes Channel",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/AmericanHeroesChannel/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/AmericanHeroesChannel/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "AnimalPlanetEast": {
         "name": "Animal Planet US East",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/AnimalPlanetEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/AnimalPlanetEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "BBCAmericaEast": {
         "name": "BBC America East",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/BBCAmericaEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/BBCAmericaEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "BBCWorldNewsNorthAmerica": {
         "name": "BBC News North America HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/BBCWorldNewsNorthAmerica/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/BBCWorldNewsNorthAmerica/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "BETEast": {
         "name": "BET Eastern Feed",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/BETEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/BETEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "BETHerEast": {
         "name": "BET Her",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/BETHerEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/BETHerEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "BloombergTV": {
         "name": "Bloomberg TV USA",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/BloombergTV/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/BloombergTV/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "Boomerang": {
         "name": "Boomerang",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/Boomerang/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/Boomerang/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "BravoEast": {
         "name": "Bravo USA Eastern Feed",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/BravoEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/BravoEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "CSPAN": {
         "name": "C-SPAN",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/CSPAN/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/CSPAN/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "CSPAN2": {
         "name": "C-SPAN 2",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/CSPAN2/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/CSPAN2/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "CartoonNetworkEast": {
         "name": "Cartoon Network USA Eastern Feed",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/CartoonNetworkEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/CartoonNetworkEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "cbs-kcbs-los-angeles-ca": {
         "name": "CBS (KCBS) Los Angeles",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/cbs-kcbs-los-angeles-ca/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/cbs-kcbs-los-angeles-ca/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "WCBSDT1": {
         "name": "NY\" group-title=\"Live\",CBS (WCBS) New York, NY",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/WCBSDT1/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/WCBSDT1/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "chicago-sports-network": {
         "name": "Chicago Sports Network",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/chicago-sports-network/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/chicago-sports-network/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "CinemaxEast": {
         "name": "Cinemax Eastern Feed",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/CinemaxEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/CinemaxEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "CMTEast": {
         "name": "CMT US Eastern Feed",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/CMTEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/CMTEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "CNBC": {
         "name": "CNBC USA",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/CNBC/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/CNBC/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "CNN": {
         "name": "CNN US",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/CNN/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/CNN/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "ComedyCentralEast": {
         "name": "Comedy Central (US) Eastern Feed",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/ComedyCentralEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/ComedyCentralEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "CrimePlusInvestigation": {
         "name": "Crime & Investigation Network USA HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/CrimePlusInvestigation/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/CrimePlusInvestigation/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "cw-kfmbtv2-san-diego-ca": {
         "name": "CW (KFMB-TV2) San Diego",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/cw-kfmbtv2-san-diego-ca/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/cw-kfmbtv2-san-diego-ca/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "cw-wdcw-district-of-columbia": {
         "name": "CW (WDCW) District of Columbia",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/cw-wdcw-district-of-columbia/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/cw-wdcw-district-of-columbia/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "DestinationAmerica": {
         "name": "Destination America",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/DestinationAmerica/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/DestinationAmerica/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "DiscoveryChannelEast": {
         "name": "Discovery Channel (US) Eastern Feed",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/DiscoveryChannelEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/DiscoveryChannelEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "DiscoveryFamily": {
         "name": "Discovery Family Channel",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/DiscoveryFamily/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/DiscoveryFamily/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "DiscoveryLife": {
         "name": "Discovery Life Channel",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/DiscoveryLife/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/DiscoveryLife/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "DisneyChannelEast": {
         "name": "Disney Eastern Feed",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/DisneyChannelEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/DisneyChannelEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "DisneyJuniorEast": {
         "name": "Disney Junior USA East",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/DisneyJuniorEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/DisneyJuniorEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "DisneyXDEast": {
         "name": "Disney XD USA Eastern Feed",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/DisneyXDEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/DisneyXDEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "EEast": {
         "name": "E! Entertainment USA Eastern Feed",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/EEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/EEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "ESPNews": {
         "name": "ESPN News HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/ESPNews/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/ESPNews/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "ESPN2": {
         "name": "ESPN2 HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/ESPN2/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/ESPN2/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "fanduel-sports-indiana": {
         "name": "Fanduel Sports Indiana HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/fanduel-sports-indiana/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/fanduel-sports-indiana/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "fanduel-sports-network-detroit-hd": {
         "name": "Fanduel Sports Network Detroit HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/fanduel-sports-network-detroit-hd/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/fanduel-sports-network-detroit-hd/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "fanduel-sports-network-florida": {
         "name": "Fanduel Sports Network Florida HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/fanduel-sports-network-florida/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/fanduel-sports-network-florida/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "fanduel-sports-network-great-lakes": {
         "name": "Fanduel Sports Network Great Lakes HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/fanduel-sports-network-great-lakes/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/fanduel-sports-network-great-lakes/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "fanduel-sports-network-north": {
         "name": "Fanduel Sports Network North HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/fanduel-sports-network-north/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/fanduel-sports-network-north/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "fanduel-sports-network-ohio-cleveland": {
         "name": "Fanduel Sports Network Ohio Cleveland HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/fanduel-sports-network-ohio-cleveland/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/fanduel-sports-network-ohio-cleveland/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "fanduel-sports-network-san-diego": {
         "name": "Fanduel Sports Network San Diego HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/fanduel-sports-network-san-diego/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/fanduel-sports-network-san-diego/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "fanduel-sports-network-socal": {
         "name": "Fanduel Sports Network Socal HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/fanduel-sports-network-socal/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/fanduel-sports-network-socal/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "fanduel-sports-network-south-carolinas": {
         "name": "Fanduel Sports Network South Carolinas HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/fanduel-sports-network-south-carolinas/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/fanduel-sports-network-south-carolinas/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "fanduel-sports-network-south-tennessee-usa": {
         "name": "Fanduel Sports Network South Tennessee HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/fanduel-sports-network-south-tennessee-usa/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/fanduel-sports-network-south-tennessee-usa/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "fanduel-sports-network-west": {
         "name": "Fanduel Sports Network West HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/fanduel-sports-network-west/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/fanduel-sports-network-west/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "fanduel-sports-network-wisconsin": {
         "name": "Fanduel Sports Network Wisconsin HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/fanduel-sports-network-wisconsin/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/fanduel-sports-network-wisconsin/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "fanduel-sports-southeast-north-carolina": {
         "name": "Fanduel Sports Southeast North Carolina HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/fanduel-sports-southeast-north-carolina/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/fanduel-sports-southeast-north-carolina/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "fanduel-sports-southeast-south-carolina": {
         "name": "Fanduel Sports Southeast South Carolina HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/fanduel-sports-southeast-south-carolina/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/fanduel-sports-southeast-south-carolina/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "fanduel-sports-southeast-tennessee-nashville": {
         "name": "Fanduel Sports Southeast Tennessee Nashville HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/fanduel-sports-southeast-tennessee-nashville/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/fanduel-sports-southeast-tennessee-nashville/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "fanduel-sports-sun": {
         "name": "Fanduel Sports Sun HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/fanduel-sports-sun/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/fanduel-sports-sun/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "fanduel-sports-tennessee-east": {
         "name": "Fanduel Sports Tennessee East HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/fanduel-sports-tennessee-east/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/fanduel-sports-tennessee-east/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "FoodNetworkEast": {
         "name": "Food Network USA Eastern Feed HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/FoodNetworkEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/FoodNetworkEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "FoxBusiness": {
         "name": "Fox Business HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/FoxBusiness/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/FoxBusiness/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "FoxNewsChannel": {
         "name": "Fox News HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/FoxNewsChannel/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/FoxNewsChannel/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "FreeformEast": {
         "name": "Freeform East Feed HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/FreeformEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/FreeformEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "FuseEast": {
         "name": "FUSE TV Eastern feed HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/FuseEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/FuseEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "FXMovieChannel": {
         "name": "FX Movie Channel HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/FXMovieChannel/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/FXMovieChannel/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "FXEast": {
         "name": "FX Networks East Coast HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/FXEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/FXEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "FXXEast": {
         "name": "FXX USA Eastern HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/FXXEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/FXXEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "FYIEast": {
         "name": "FYI USA Eastern HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/FYIEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/FYIEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "game-show-network-east": {
         "name": "Game Show Network East HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/game-show-network-east/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/game-show-network-east/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "GolfChannel": {
         "name": "Golf Channel USA HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/GolfChannel/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/GolfChannel/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "HallmarkChannelEast": {
         "name": "Hallmark Eastern Feed HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/HallmarkChannelEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/HallmarkChannelEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "HallmarkDrama": {
         "name": "Hallmark Family HD HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/HallmarkDrama/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/HallmarkDrama/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "HallmarkMoviesMysteriesEast": {
         "name": "Hallmark Mystery Eastern HD HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/HallmarkMoviesMysteriesEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/HallmarkMoviesMysteriesEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "HBOEast": {
         "name": "HBO Eastern Feed HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/HBOEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/HBOEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "HBO2East": {
         "name": "HBO 2 Eastern Feed HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/HBO2East/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/HBO2East/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "HBOComedyEast": {
         "name": "HBO Comedy HD East HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/HBOComedyEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/HBOComedyEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "HBOFamilyEast": {
         "name": "HBO Family Eastern Feed HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/HBOFamilyEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/HBOFamilyEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "HBOSignatureEast": {
         "name": "HBO Signature (HBO 3) Eastern HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/HBOSignatureEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/HBOSignatureEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "HBOZoneEast": {
         "name": "HBO Zone HD East HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/HBOZoneEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/HBOZoneEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "HGTVEast": {
         "name": "HGTV USA Eastern Feed HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/HGTVEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/HGTVEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "HistoryEast": {
         "name": "History Channel US Eastern Feed HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/HistoryEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/HistoryEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "HLN": {
         "name": "HLN HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/HLN/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/HLN/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "IFCEast": {
         "name": "Independent Film Channel US HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/IFCEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/IFCEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "InvestigationDiscoveryEast": {
         "name": "Investigation Discovery USA Eastern HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/InvestigationDiscoveryEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/InvestigationDiscoveryEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "IONTVEast": {
         "name": "ION Eastern Feed HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/IONTVEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/IONTVEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "LifetimeMoviesEast": {
         "name": "Lifetime Movies East HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/LifetimeMoviesEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/LifetimeMoviesEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "LifetimeEast": {
         "name": "Lifetime Network US Eastern Feed HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/LifetimeEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/LifetimeEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "LogoEast": {
         "name": "LOGO East HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/LogoEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/LogoEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "marquee-sports-network": {
         "name": "Marquee Sports Network HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/marquee-sports-network/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/marquee-sports-network/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "metv-toons": {
         "name": "MeTV Toons (WJLP2) New Jersey HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/metv-toons/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/metv-toons/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "metv-wjlp-new-jerseynew-york": {
         "name": "MeTV Wjlp New Jerseynew York HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/metv-wjlp-new-jerseynew-york/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/metv-wjlp-new-jerseynew-york/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "midatlantic-sports-network": {
         "name": "Midatlantic Sports Network HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/midatlantic-sports-network/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/midatlantic-sports-network/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "MLBNetwork": {
         "name": "MLB Network HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/MLBNetwork/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/MLBNetwork/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "monumental-sports-network": {
         "name": "Monumental Sports Network HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/monumental-sports-network/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/monumental-sports-network/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "MoreMaxEast": {
         "name": "MoreMax Eastern HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/MoreMaxEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/MoreMaxEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "Motortrend": {
         "name": "Motor Trend HD HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/Motortrend/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/Motortrend/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "MovieMaxEast": {
         "name": "MovieMax (Max 6) East HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/MovieMaxEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/MovieMaxEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "msg-madison-square-gardens": {
         "name": "MSG Madison Square Gardens HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/msg-madison-square-gardens/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/msg-madison-square-gardens/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "msg-plus": {
         "name": "MSG Plus HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/msg-plus/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/msg-plus/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "MSNBC": {
         "name": "MSNBC USA HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/MSNBC/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/MSNBC/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "mtv-2-east": {
         "name": "MTV 2 East HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/mtv-2-east/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/mtv-2-east/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "MTVEast": {
         "name": "MTV USA Eastern Feed HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/MTVEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/MTVEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "NationalGeographicEast": {
         "name": "National Geographic US Eastern HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/NationalGeographicEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/NationalGeographicEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "NationalGeographicWildEast": {
         "name": "National Geographic Wild HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/NationalGeographicWildEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/NationalGeographicWildEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "NBATV": {
         "name": "NBA TV USA HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/NBATV/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/NBATV/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "nbc-knbc-los-angeles-ca": {
         "name": "NBC (KNBC) Los Angeles HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/nbc-knbc-los-angeles-ca/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/nbc-knbc-los-angeles-ca/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "WNBCDT1": {
         "name": "NY HD\" group-title=\"Live\",NBC (WNBC) New York, NY HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/WNBCDT1/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/WNBCDT1/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "nbc-sports-california": {
         "name": "NBC Sports California HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/nbc-sports-california/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/nbc-sports-california/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "new-england-sports-network": {
         "name": "New England Sports Network HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/new-england-sports-network/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/new-england-sports-network/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "NewsmaxTV": {
         "name": "NewsMax TV HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/NewsmaxTV/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/NewsmaxTV/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "NFLNetwork": {
         "name": "NFL Network HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/NFLNetwork/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/NFLNetwork/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "NFLRedZone": {
         "name": "NFL RedZone HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/NFLRedZone/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/NFLRedZone/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "NHLNetwork": {
         "name": "NHL Network USA HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/NHLNetwork/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/NHLNetwork/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "NickJrEast": {
         "name": "Nick Jr. East HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/NickJrEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/NickJrEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "NickelodeonEast": {
         "name": "Nickelodeon USA East Feed HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/NickelodeonEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/NickelodeonEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "NicktoonsEast": {
         "name": "Nicktoons East HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/NicktoonsEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/NicktoonsEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "OWNEast": {
         "name": "Oprah Winfrey Network USA Eastern HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/OWNEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/OWNEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "OutdoorChannel": {
         "name": "Outdoor Channel US HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/OutdoorChannel/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/OutdoorChannel/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "OxygenEast": {
         "name": "Oxygen Eastern Feed HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/OxygenEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/OxygenEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "WNET": {
         "name": "NY HD\" group-title=\"Live\",PBS (WNET) New York, NY HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/WNET/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/WNET/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "Reelz": {
         "name": "ReelzChannel HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/Reelz/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/Reelz/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "Science": {
         "name": "Science HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/Science/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/Science/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "SECN": {
         "name": "SEC Network HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/SECN/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/SECN/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "ShowtimeEast": {
         "name": "Showtime Eastern Feed HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/ShowtimeEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/ShowtimeEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "Showtime2East": {
         "name": "Showtime 2 Eastern HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/Showtime2East/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/Showtime2East/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "sny-sportsnet-new-york-comcast": {
         "name": "SNY Sportsnet New York Comcast HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/sny-sportsnet-new-york-comcast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/sny-sportsnet-new-york-comcast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "space-city-home-network": {
         "name": "Space City Home Network HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/space-city-home-network/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/space-city-home-network/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "spectrum-sportsnet-la": {
         "name": "Spectrum SportsNet LA HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/spectrum-sportsnet-la/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/spectrum-sportsnet-la/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "spectrum-sportsnet": {
         "name": "Spectrum Sportsnet Lakers HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/spectrum-sportsnet/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/spectrum-sportsnet/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "StarzEast": {
         "name": "Starz Eastern HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/StarzEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/StarzEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "SundanceTVEast": {
         "name": "SundanceTV USA East HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/SundanceTVEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/SundanceTVEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "SyfyEast": {
         "name": "Syfy Eastern Feed HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/SyfyEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/SyfyEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "TBSEast": {
         "name": "TBS East HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/TBSEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/TBSEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "TeenNickEast": {
         "name": "TeenNick Eastern HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/TeenNickEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/TeenNickEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "TelemundoEast": {
         "name": "Telemundo Eastern Feed HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/TelemundoEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/TelemundoEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "CookingChannel": {
         "name": "The Cooking Channel HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/CookingChannel/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/CookingChannel/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "TennisChannel": {
         "name": "The Tennis Channel HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/TennisChannel/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/TennisChannel/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "TheWeatherChannel": {
         "name": "The Weather Channel HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/TheWeatherChannel/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/TheWeatherChannel/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "TLCEast": {
         "name": "TLC USA Eastern HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/TLCEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/TLCEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "TheMovieChannelEast": {
         "name": "TMC (US) Eastern Feed HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/TheMovieChannelEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/TheMovieChannelEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "TNTEast": {
         "name": "TNT Eastern Feed HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/TNTEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/TNTEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "TravelChannelEast": {
         "name": "Travel US East HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/TravelChannelEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/TravelChannelEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "truTVEast": {
         "name": "truTV USA Eastern HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/truTVEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/truTVEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "tsn01": {
         "name": "TSN1 HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/tsn1/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/tsn1/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "tsn02": {
         "name": "TSN2 HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/tsn2/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/tsn2/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "tsn03": {
         "name": "TSN3 HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/tsn3/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/tsn3/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "tsn04": {
         "name": "TSN4 HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/tsn4/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/tsn4/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "tsn05": {
         "name": "TSN5 HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/tsn5/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/tsn5/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "TCMEast": {
         "name": "Turner Classic Movies USA HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/TCMEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/TCMEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "tv-land-eastern": {
         "name": "TV Land Eastern HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/tv-land-eastern/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/tv-land-eastern/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "TVOne": {
         "name": "TV One HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/TVOne/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/TVOne/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "UniversalKidsEast": {
         "name": "Universal Kids HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/UniversalKidsEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/UniversalKidsEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "UnivisionEast": {
         "name": "Univision Eastern Feed HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/UnivisionEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/UnivisionEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "USANetworkEast": {
         "name": "USA Network East Feed HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/USANetworkEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/USANetworkEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "VH1East": {
         "name": "VH1 Eastern Feed HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/VH1East/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/VH1East/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "VICETV": {
         "name": "VICE HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/VICETV/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/VICETV/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "WeTVEast": {
         "name": "WE (Women's Entertainment) Eastern HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/WeTVEast/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/WeTVEast/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "WPIX": {
         "name": "WPIX New York (SUPERSTATION) HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/WPIX/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/WPIX/tracks-v1a1/mono.m3u8",
         "country": "us"
     },
     "yes-network": {
         "name": "Yes Network HD",
-        "url": "https://sporturi-live.ro/player2.php?url=https://v1.thetvapp.to/hls/yes-network/tracks-v1a1/mono.m3u8",
+        "url": "https://bebe2007.github.io/player.html?url=https://v1.thetvapp.to/hls/yes-network/tracks-v1a1/mono.m3u8",
         "country": "us"
 }
 }
