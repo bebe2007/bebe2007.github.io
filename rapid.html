@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Preluare ID-uri Dinamic</title>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const params = new URLSearchParams(window.location.search);
@@ -15,8 +16,17 @@
             fetch("config.json")
                 .then(response => response.json())
                 .then(data => {
-                    if (data[id]) {
-                        document.getElementById("output").innerText = `ID: ${id} - URL: ${data[id]}`;
+                    const url = data[id];
+                    if (url) {
+                        const videoElement = document.getElementById("videoPlayer");
+
+                        if (Hls.isSupported()) {
+                            const hls = new Hls();
+                            hls.loadSource(url);
+                            hls.attachMedia(videoElement);
+                        } else if (videoElement.canPlayType('application/vnd.apple.mpegurl')) {
+                            videoElement.src = url;
+                        }
                     } else {
                         document.getElementById("output").innerText = "ID-ul nu a fost găsit în configurare.";
                     }
@@ -31,5 +41,8 @@
 <body>
     <h1>Preluare ID-uri Dinamic</h1>
     <div id="output">Se încarcă...</div>
+
+    <video id="videoPlayer" controls width="600" height="340" style="background-color: #000;"></video>
+
 </body>
 </html>
