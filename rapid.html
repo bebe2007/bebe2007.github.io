@@ -29,7 +29,12 @@
                 .then(data => {
                     const url = data[id];
                     if (url) {
-                        document.getElementById("videoFrame").src = url;
+                        const videoFrame = document.getElementById("videoFrame");
+                        videoFrame.src = url;
+                        videoFrame.setAttribute("allow", "fullscreen; picture-in-picture");
+                        videoFrame.setAttribute("allowfullscreen", "true");
+                        videoFrame.setAttribute("webkitallowfullscreen", "true");
+                        videoFrame.setAttribute("mozallowfullscreen", "true");
                     }
                 })
                 .catch(error => console.error("Eroare la preluarea datelor: ", error));
