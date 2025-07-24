@@ -1,101 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Player Video</title>
-    <script src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
-    <style>
-        body, html {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-            background-color: #000;
-        }
-        #player {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-        }
-        #logo {
-            position: absolute;
-            top: 10px; /* Plasat în partea de sus */
-            right: 10px; /* Plasat în partea dreaptă */
-            width: 150px;
-            z-index: 10;
-            opacity: 0.4; /* Opacitate de 40% */
-        }
-        #logo a {
-            display: block;
-        }
-        #logo img {
-            width: 100%;
-            height: auto;
-        }
-        #unmute-btn {
-            position: absolute;
-            top: 10px;
-            left: 10px;
-            padding: 10px 20px;
-            background-color: rgba(0, 0, 0, 0.5);
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            z-index: 10;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Player Video</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      height: 100%;
+    }
+
+    .player-wrapper {
+      position: relative;
+      max-width: 100%;
+      margin: 0 auto;
+      height: 100vh;
+    }
+
+    #player {
+      position: relative;
+      width: 100%;
+      padding-top: 56.25%;
+    }
+
+    #player > div {
+      position: absolute !important;
+      top: 0;
+      left: 0;
+      width: 100% !important;
+      height: 100% !important;
+      border-radius: 14px;
+      overflow: hidden;
+    }
+
+    .reload-button {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      z-index: 10;
+      background: #d9534f;
+      color: white;
+      padding: 10px 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .reload-button:hover {
+      background: #c9302c;
+    }
+  </style>
 </head>
 <body>
+  <div class="player-wrapper">
     <div id="player"></div>
+    <button onclick="reloadPlayer()" class="reload-button">🔄 Reîncarcă playerul</button>
+  </div>
 
-    <!-- Logo-ul în partea dreaptă sus -->
-    <div id="logo">
-        <a href="https://sporturi-live.ro/" target="_blank">
-            <img src="https://raw.githubusercontent.com/bebe2007/bebe2007.github.io/refs/heads/main/logo.png" alt="Sporturi Live Logo">
-        </a>
-    </div>
+  <script src="https://cdn.jsdelivr.net/npm/@clappr/player@0.4.0/dist/clappr.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/shaka-player@2.5.10/dist/shaka-player.compiled.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/clappr/dash-shaka-playback@latest/dist/dash-shaka-playback.external.min.js"></script>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const videoUrl = params.get("url");
 
-    <!-- Butonul pentru activarea sunetului în partea stângă sus -->
-    <button id="unmute-btn" onclick="unmutePlayer()">Activează Sunetul</button>
+    let playerInstance;
 
-    <script>
-        // Obține parametrii URL (de exemplu, ?url=)
-        const urlParams = new URLSearchParams(window.location.search);
-        const videoUrl = urlParams.get('url');
+    function createPlayer() {
+      if (!videoUrl) {
+        document.getElementById('player').innerHTML = '<h2 style="color:white;text-align:center;margin-top:20%;">Nu a fost furnizat niciun link video.</h2>';
+        return;
+      }
 
-        // Verifică dacă a fost introdus un URL M3U8
-        if (videoUrl) {
-            var player = new Clappr.Player({
-                source: videoUrl,
-                parentId: "#player",
-                autoPlay: true,
-                preload: "auto",
-                mute: true,
-                height: '100%',
-                width: '100%'
-            });
-        } else {
-            document.getElementById('player').innerHTML = '<p>Nu a fost furnizat niciun link M3U8.</p>';
-        }
-
-        // Funcția pentru activarea sunetului
-        function unmutePlayer() {
-            player.setVolume(100);  // Setează volumul la 100%
-            player.unmute();  // Dezactivează mut
-            document.getElementById('unmute-btn').style.display = 'none';  // Ascunde butonul după ce sunetul este activat
-        }
-
-        // Ascunde butonul de activare sunet dacă video-ul este deja nemutat
-        player.on(Clappr.Events.PLAYER_PLAY, function() {
-            if (!player.isMuted()) {
-                document.getElementById('unmute-btn').style.display = 'none';
+      playerInstance = new Clappr.Player({
+        source: videoUrl,
+        mimeType: 'application/dash+xml',
+        autoPlay: true,
+        muted: true,
+        plugins: [DashShakaPlayback],
+        shakaConfiguration: {
+          drm: {
+            clearKeys: {
+              '69372eb0410340cf9e65bd61029a1214': '96ccf0a40d098241a230c48e0b245db4'
             }
-        });
-    </script>
+          }
+        },
+        watermark: "https://sporturi-live.ro/logo.png",
+        position: "bottom-left",
+        watermarkLink: "https://sporturi-live.ro",
+        parentId: "#player"
+      });
+    }
+
+    function reloadPlayer() {
+      if (playerInstance) {
+        playerInstance.destroy();
+      }
+      createPlayer();
+    }
+
+    createPlayer();
+  </script>
 </body>
 </html>
