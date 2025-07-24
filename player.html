@@ -5,45 +5,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Player Video</title>
   <script src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
-  <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      background-color: #000;
-      height: 100%;
-      width: 100%;
-      overflow: hidden;
-    }
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
 
-    #player {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
+  #player {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 
+  #unmute-btn {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    z-index: 9999;
+    font-size: 14px;
+  }
+
+  .watermark {
+    opacity: 0.6 !important;
+  }
+
+  @media (max-width: 768px) {
     #unmute-btn {
-      position: fixed;
-      top: 10px;
-      left: 10px;
-      padding: 10px 20px;
-      background-color: rgba(0, 0, 0, 0.6);
-      color: white;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-      z-index: 9999;
-      font-size: 14px;
+      padding: 8px 14px;
+      font-size: 13px;
     }
+  }
+</style>
 
-    @media (max-width: 768px) {
-      #unmute-btn {
-        padding: 8px 14px;
-        font-size: 13px;
-      }
-    }
-  </style>
 </head>
 <body>
 
