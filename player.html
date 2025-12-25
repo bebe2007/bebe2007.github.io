@@ -1,98 +1,183 @@
 <!DOCTYPE html>
 <html lang="ro">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Player Video</title>
   <script src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
-<style>
-  html, body {
-    margin: 0;
-    padding: 0;
-    background-color: #000;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-  }
-
-  #player {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-
-  #unmute-btn {
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    padding: 10px 20px;
-    background-color: rgba(0, 0, 0, 0.6);
-    color: white;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    z-index: 9999;
-    font-size: 14px;
-  }
-
-  .watermark {
-    opacity: 0.6 !important;
-  }
-
-  @media (max-width: 768px) {
-    #unmute-btn {
-      padding: 8px 14px;
-      font-size: 13px;
+  <style>
+    html, body {
+      margin: 0; padding: 0;
+      background-color: #000;
+      height: 100%; width: 100%;
+      overflow: hidden;
     }
-  }
-</style>
+    #player {
+      position: absolute; inset: 0;
+      width: 100%; height: 100%;
+      background: #000;
+    }
 
+    /* logo-ul (watermark) Clappr – 25% opacitate, nu blochează clickurile */
+    .watermark {
+      opacity: 0.25 !important;
+      pointer-events: none !important;
+    }
+
+    /* textul brand – îl atașăm în DOM-ul Clappr ca să fie inclus în fullscreen */
+    .brand-text {
+      position: absolute;
+      right: 12px; bottom: 10px;
+      color: #fff;
+      opacity: 0.25;                   /* 25% vizibilitate */
+      font-weight: 800;
+      letter-spacing: 0.5px;
+      line-height: 1;
+      user-select: none;
+      pointer-events: none;             /* nu încurcă controalele */
+      z-index: 2147483647;
+      font-size: clamp(12px, 2.2vw, 26px);
+      text-shadow: 0 1px 2px rgba(0,0,0,.7);
+    }
+
+    /* Buton fallback pentru cazul în care autoplay cu sunet e blocat de browser */
+    #unmute-btn {
+      position: absolute;
+      top: 10px; left: 10px;
+      padding: 10px 16px;
+      background: rgba(0,0,0,.6);
+      color: #fff;
+      border: none; border-radius: 6px;
+      cursor: pointer;
+      z-index: 2147483647;
+      font-size: 14px;
+      display: none;
+    }
+    @media (max-width: 768px) {
+      #unmute-btn { padding: 8px 12px; font-size: 13px; }
+    }
+  </style>
 </head>
 <body>
-
-  <div id="player"></div>
-
-  <!-- Buton pentru activarea sunetului -->
-  <button id="unmute-btn" onclick="unmutePlayer()">🔊 Activează Sunetul</button>
+  <div id="player">
+    <button id="unmute-btn" type="button">🔊 Activează Sunetul</button>
+  </div>
 
   <script>
     const urlParams = new URLSearchParams(window.location.search);
-    const videoUrl = urlParams.get('url');
-
+    const videoUrl  = urlParams.get('url');
     let player;
+    let brandEl = null;
+
+    function createBrandEl() {
+      if (brandEl) return brandEl;
+      brandEl = document.createElement('div');
+      brandEl.className = 'brand-text';
+      brandEl.textContent = 'WwW.Sporturi-Live.Ro';
+      return brandEl;
+    }
+
+    function attachBrandTo(target) {
+      if (!target) return;
+      const el = createBrandEl();
+      // ne asigurăm că e poziționat relativ containerul-țintă
+      if (getComputedStyle(target).position === 'static') {
+        target.style.position = 'relative';
+      }
+      // mutăm (appendChild mută, nu copiază)
+      target.appendChild(el);
+    }
+
+    function hostForOverlay() {
+      // preferăm containerul intern Clappr (cel care intră în fullscreen)
+      if (player && player.core && player.core.el) return player.core.el;
+      if (player && player.el) return player.el;
+      return document.querySelector('#player');
+    }
+
+    // în unele browsere elementul exact care intră în fullscreen diferă; ne adaptăm
+    document.addEventListener('fullscreenchange', () => {
+      const fs = document.fullscreenElement;
+      if (fs) {
+        // dacă fullscreenul e pe un nod din interiorul playerului, lipim textul acolo
+        if (fs.contains(hostForOverlay())) {
+          attachBrandTo(hostForOverlay());
+        } else if (fs.classList && (fs.classList.contains('player') || fs.classList.contains('container'))) {
+          attachBrandTo(fs);
+        } else {
+          // fallback: dacă în fullscreen e chiar wrapperul #player
+          if (fs.id === 'player') attachBrandTo(fs);
+        }
+      } else {
+        // ieșire din fullscreen – îl ținem în hostul Clappr
+        attachBrandTo(hostForOverlay());
+      }
+    });
+
+    function showUnmute() {
+      const b = document.getElementById('unmute-btn');
+      if (b) b.style.display = 'inline-block';
+    }
+    function hideUnmute() {
+      const b = document.getElementById('unmute-btn');
+      if (b) b.style.display = 'none';
+    }
+
+    async function tryAutoplayWithSound() {
+      const video = document.querySelector('#player video');
+      if (!video) return;
+      try {
+        video.muted  = false;
+        video.volume = 1.0;
+        if (player) { player.setVolume(100); player.unmute && player.unmute(); }
+        const p = video.play && video.play();
+        if (p && typeof p.then === 'function') await p;
+        hideUnmute();
+      } catch(e) {
+        showUnmute();
+      }
+    }
+
+    function unmutePlayer() {
+      const video = document.querySelector('#player video');
+      if (video) { video.muted = false; video.volume = 1.0; video.play && video.play(); }
+      if (player) { player.setVolume(100); player.unmute && player.unmute(); player.play && player.play(); }
+      hideUnmute();
+    }
 
     if (videoUrl) {
       player = new Clappr.Player({
         source: videoUrl,
         parentId: "#player",
         autoPlay: true,
-        mute: true,
-        width: '100%',
-        height: '100%',
+        mute: false,                 // încercăm direct cu sunet
+        width: "100%",
+        height: "100%",
+        // logo-ul tău, stânga-sus, opacitate controlată din CSS .watermark
         watermark: "https://raw.githubusercontent.com/bebe2007/bebe2007.github.io/refs/heads/main/logo.png",
-        position: "top-right",
+        position: "top-left",
         watermarkLink: "https://sporturi-live.ro",
+        playback: { playInline: true, preload: "auto" }
       });
 
-      player.on(Clappr.Events.PLAYER_PLAY, function () {
-        if (!player.isMuted()) {
-          document.getElementById('unmute-btn').style.display = 'none';
-        }
+      // când playerul e gata: punem textul în DOM-ul Clappr
+      player.on(Clappr.Events.PLAYER_READY, () => {
+        attachBrandTo(hostForOverlay());
+        tryAutoplayWithSound();
       });
+
+      // dacă se pornește mut (politici browser), arată butonul
+      player.on(Clappr.Events.PLAYER_PLAY, () => {
+        const video = document.querySelector('#player video');
+        const actuallyMuted = (video && video.muted) || (player && player.isMuted && player.isMuted());
+        if (actuallyMuted) showUnmute(); else hideUnmute();
+      });
+
+      document.getElementById('unmute-btn').addEventListener('click', unmutePlayer);
     } else {
-      document.getElementById('player').innerHTML = '<p style="color:white;text-align:center;margin-top:20%;">Nu a fost furnizat niciun link video.</p>';
-    }
-
-    function unmutePlayer() {
-      if (player) {
-        player.setVolume(100);
-        player.unmute();
-        document.getElementById('unmute-btn').style.display = 'none';
-      }
+      document.getElementById('player').innerHTML =
+        '<p style="color:white;text-align:center;margin-top:20%;">Nu a fost furnizat niciun link video.</p>';
     }
   </script>
-
 </body>
 </html>
